@@ -6,9 +6,7 @@
 <script>hljs.initHighlightingOnLoad();</script>
 
 <!-- GoogleMaps and associated libraries -->
-{{ if eq (relURL .URL) ("hiking/highpoints/" | safeHTML) }}
 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDMj4Q2_oXWrJwLrPsSx0Lq8ZQBtlZm5aQ&callback=initMap"></script>
 <script>var highpoint_data = {{ .Site.Data.highpoints.source }}</script>
 <script async defer src="{{ .Site.BaseURL }}snazzy-info-window/dist/snazzy-info-window.min.js"></script>
 <script src="{{ .Site.BaseURL }}js/gmaps.js"></script>
-{{ end }}
