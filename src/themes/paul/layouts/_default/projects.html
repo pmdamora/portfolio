@@ -1,0 +1,19 @@
+<section id="projects">
+    <div class="container">
+        <h1>{{ .Site.Data.projects.name }}</h1>
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <p>
+                    Some of my recent work and project can be found in their entirety on my <a href="https://github.com/pmdamora">Github page</a>. A select view of those proects are detailed below.
+                </p>
+                <hr />
+                {{ range $i, $el := .Site.Data.projects.source }}
+                <h5>
+                    <i class="{{ .icon }}"></i>&nbsp;&nbsp;
+                    <strong><a href="{{ $el.url }}">{{ $el.name }}</a></strong>&nbsp;-&nbsp;{{ $el.description }}
+                </h5>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,21 @@
+{
+  "name": "Portfolio",
+  "authors": [
+    "Paul D'Amora <pmdamora@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "snazzy-info-window": "^1.1.0",
+    "svg-marker": "^0.7.0"
+  }
+}

@@ -1,0 +1,205 @@
+/* -----------------------------------------------------------
+
+	Project Name:    pauldamora.me
+    Author:          Paul D'Amora
+	Version:         1.0
+	Modified:        July 12, 2017
+
+	Table of contents:
+		1. Typography
+		2. Structure
+
+----------------------------------------------------------- */
+
+/* -----------------------------------------------------------
+	TYPOGRAPHY
+----------------------------------------------------------- */
+body {
+    color: #232a38;
+    font-family: 'Quattrocento', Helvetica, Arial, sans-serif;
+}
+
+a {
+    -webkit-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+a { color: #ed3426;}
+a:hover { color: #000;text-decoration: none;}
+
+.h1, .h2, .h3, h1, h2, h3 { margin: 30px 0;}
+h1 { font-family: 'Quattrocento Sans', Helvetica, sans-serif; font-size: 36px; font-weight: bold;}
+.h3, h3 { font-size: 28px;}
+.h4, h4 { font-size: 22px;}
+
+#navbar { font-family: 'Quattrocento Sans', Helvetica, sans-serif;letter-spacing: 1px;}
+.navbar-default .navbar-nav > li > a { color: #ed3426;}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus { color: #232a38;}
+
+#map-container .container, #footer { font-family: 'Quattrocento Sans', Helvetica, sans-serif;}
+/* -----------------------------------------------------------
+	STRUCTURE
+----------------------------------------------------------- */
+
+.container {
+  width: auto;
+  max-width: 800px;
+  text-align: center;
+}
+
+html, body {
+  height: 100%;
+  background-color: #fff;
+}
+
+#wrap {
+  padding-bottom: 50px;
+  min-height: 100%;
+  height: auto;
+  margin: 0 auto -65px;
+}
+
+.panel { box-shadow: none;}
+
+/* Navbar */
+.navbar-nav {
+    width: 100%;
+    text-align: center;
+}
+.navbar-nav > li {
+    float: none;
+    display: inline-block;
+    position: relative;
+}
+.navbar-static-top { margin-bottom: 10px;}
+.navbar-default {
+  background-color: #ffffff;
+  border-color: #ffffff;
+  margin-top: 20px;
+}
+
+.subnav {
+    background:#fff;
+    border: 1px solid #aaa;
+    border-radius: 3px;
+    left: -20px;
+    list-style-type: none;
+    opacity: 0;
+    padding: 20px;
+    position:absolute;
+    top:100%;
+	transition: all 300ms ease;
+    visibility: hidden; /* hides sub-menu */
+}
+
+.subnav:after, .subnav:before {
+	bottom: 100%;
+	left: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.subnav:after {
+	border-color: rgba(255, 255, 255, 0);
+	border-bottom-color: #ffffff;
+	border-width: 5px;
+	margin-left: -5px;
+}
+.subnav:before {
+	border-color: rgba(170, 170, 170, 0);
+	border-bottom-color: #aaa;
+	border-width: 6px;
+	margin-left: -6px;
+}
+.subnav li {  list-style-type: none;}
+
+li:hover .subnav {
+    visibility: visible;
+    opacity: 1;
+}
+
+/* Home */
+.avatar { padding-top: 5%;}
+
+/* Blog */
+.blogpost {
+    font-size: 21px;
+    line-height: 30px;
+    text-align: justify;
+}
+.blogpost p, blockquote, .blogpost .h1, .blogpost .h2, .blogpost .h3, .blogpost .h4,
+.blogpost .h5, .blogpost .h6, .blogpost h1, .blogpost h2, .blogpost h3, .blogpost h4,
+.blogpost h5, .blogpost h6, .blogpost ol, .blogpost ul {
+    margin-left: auto; margin-right: auto; width: 80%;
+}
+pre { border-radius: 0; border: 0 none; margin: 30px 0;}
+p { margin: 0 0 30px;}
+blockquote { margin: 40px 0;}
+blockquote p { margin:0!important;}
+.container .text-muted { margin: 20px 0;}
+
+.img-responsive {
+ display: block;
+ height: auto;
+ max-width: 100%;
+}
+.panel-default h4 {
+  text-align: left;
+  line-height: 24px;
+  font-size: 22px;
+}
+.panel-default h5 {
+  text-align: left;
+  line-height: 30px;
+  font-size: 18px;
+}
+.panel-default h6 { font-size: 15px;}
+.panel{ border-style: none;}
+.panel-body { padding-top: -10px;}
+.blog-post{ padding-top: 15px;}
+.blog-title{ padding-top: 2px;}
+.label-success { background-color: #ed3426;}
+
+/* Projects */
+section#projects p {
+    font-size: 21px;
+    line-height: 30px;
+    margin-bottom:60px;
+    text-align:left;
+}
+
+/* Highpointing */
+#map { height: 600px;}
+#map-container { position:relative;margin-bottom: 40px}
+#map-container .container { max-width: 80%;}
+.highpoint-list {
+    background: rgba(255,255,255,0.9);
+    height: 600px;
+    overflow-y: scroll;
+    padding: 40px;
+    position: absolute;
+    text-align: left;
+    top: 0px;
+    width: 415px;
+}
+.highpoint-list ul { font-size: 16px;padding: 0;}
+.highpoint-list ul li { list-style-type: none;padding: 8px 0;}
+
+.highpoint-list ul li a { cursor: pointer;}
+.highpoint-list h4 {
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.infowindow { width: 350px;}
+.infowindow h1 { font-size: 25px;}
+.summitPhoto { width: 100%;}

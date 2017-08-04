@@ -1,0 +1,26 @@
+name: Projects
+source:
+  - icon: fa fa-github
+    name: Forest
+    description: A Python, Flask, Keras, and OpenCV project that leverages machine learning, feature extraction, and image processing techniques to predict the species of a leaf.
+    url: https://github.com/pmdamora/forest
+    language: Python
+  - icon: fa fa-github
+    name: CourseApp
+    description: "Submission for the 2014 UVM CS Fair: A Python web application to help students choose courses"
+    language: Python, Javascript, CSS, HTML
+  - icon: fa fa-github
+    name: ccby-merger
+    description: A simple CLI Node.js app that adds a CC to the end of lecture videos automatically
+    url: https://github.com/pmdamora/ccby-merger
+    language: Javascript
+  - icon: fa fa-github
+    name: ratemyslumlord
+    description: "Submission for 2nd annual UVM/State Street Codefest: A simple Python website to help people rate their landlords and aggregate renting data."
+    url: https://github.com/pmdamora/ratemyslumlord
+    language: Python, Javascript, CSS, HTML
+  - icon: fa fa-github
+    name: TravLog
+    description: "Travlog is a mobile app developed for the iPhone which monitors the location of participants in a travel survey. The app is designed to gather information regarding the mode, purpose and frequency of intercity travel to inform policy makers and provide detailed information to assist infrastructure planning."
+    url: https://github.com/IanPFoertsch/275_travel_app
+    language: Swift

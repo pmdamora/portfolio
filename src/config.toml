@@ -1,0 +1,46 @@
+baseurl = "https://pmdamora.github.io/portfolio/"
+languageCode = "en-US"
+title = "Paul D'Amora"
+theme = "paul"
+pluralizelisttitles = "false"
+
+[permalinks]
+  post = "/:year/:month/:day/:slug"
+
+[params]
+  avatar = "profile.png"
+  author = "Paul D'Amora"
+  description = "Describe your website"
+
+[params.social]
+  Github        = "username"
+  Email         = "email@example.com"
+  LinkedIn      = "username"
+
+## Main Menu
+# [[menu.main]]
+#   name = "blog"
+#   weight = 100
+#   identifier = "blog"
+#   url = "/blog/"
+[[menu.main]]
+  name = "projects"
+  identifier = "projects"
+  weight = 200
+  url = "/projects/"
+[[menu.main]]
+  name = "hiking"
+  identifier = "hiking"
+  weight = 300
+  url = "/hiking/"
+[[menu.main]]
+  name = "highpoints"
+  identifier = "highpoints"
+  parent = "hiking"
+  weight = 300
+  url = "/hiking/highpoints"
+[[menu.main]]
+  name = "resume"
+  identifier = "resume"
+  weight = 400
+  url = "/resume/"

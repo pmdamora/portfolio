@@ -1,0 +1,19 @@
+<section id="highpoints">
+    <div class="container">
+        <h1>{{ .Site.Data.highpoints.name }}</h1>
+    </div>
+
+    <div id="map-container">
+        <div id="map"></div>
+        <div class="container">
+            <div class="highpoint-list">
+                <h4 onclick="resetMap()">Completed Highpoints : 13</h4>
+                <ul>
+                    {{ range $i, $el := .Site.Data.highpoints.source }}
+                        <li><a onclick="selectMarker({{ $i }})">{{ .highpoint }}, {{ .sstate }}</a> - {{ .date }}</li>
+                    {{ end }}
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
