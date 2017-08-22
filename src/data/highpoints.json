@@ -73,21 +73,11 @@
         },
         {
             "imageurl": "/img/mansfield.jpg",
-            "highpoint": "High Point",
-            "state": "New Jersey",
-            "sstate": "NJ",
-            "elevation": "1803'",
-            "date": "7/20/17",
-            "lat": 41.320948,
-            "lang": -74.661562
-        },
-        {
-            "imageurl": "/img/mansfield.jpg",
             "highpoint": "Mount Mitchell",
             "state": "North Carolina",
             "sstate": "NC",
             "elevation": "6684'",
-            "date": "7/20/17",
+            "date": "8/8/17",
             "lat": 35.762341,
             "lang": -82.270711
         },
@@ -97,7 +87,7 @@
             "state": "South Carolina",
             "sstate": "SC",
             "elevation": "3560'",
-            "date": "7/20/17",
+            "date": "8/8/17",
             "lat": 35.065146,
             "lang": -82.777349
         },
@@ -107,7 +97,7 @@
             "state": "Georgia",
             "sstate": "GA",
             "elevation": "4784'",
-            "date": "7/20/17",
+            "date": "8/9/17",
             "lat": 34.874278,
             "lang": -83.810907
         },
@@ -117,7 +107,7 @@
             "state": "Tennessee",
             "sstate": "TN",
             "elevation": "6643'",
-            "date": "7/20/17",
+            "date": "8/9/17",
             "lat": 35.562755,
             "lang": -83.498498
         },
@@ -127,7 +117,27 @@
             "state": "Kentucky",
             "sstate": "KY",
             "elevation": "4145'",
-            "date": "7/20/17",
+            "date": "8/10/17",
+            "lat": 36.914263,
+            "lang": -82.893796
+        },
+        {
+            "imageurl": "/img/mansfield.jpg",
+            "highpoint": "High Point",
+            "state": "New Jersey",
+            "sstate": "NJ",
+            "elevation": "1803'",
+            "date": "8/11/17",
+            "lat": 41.320948,
+            "lang": -74.661562
+        },
+        {
+            "imageurl": "/img/mansfield.jpg",
+            "highpoint": "Mount Frissel (South Slope)",
+            "state": "Connecticut",
+            "sstate": "CT",
+            "elevation": "2380'",
+            "date": "8/19/17",
             "lat": 36.914263,
             "lang": -82.893796
         }
