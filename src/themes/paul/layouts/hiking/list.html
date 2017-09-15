@@ -3,27 +3,45 @@
         <div id="wrap">
             <!-- Header -->
             {{ partial "header" . }}
-            <div class="container">
-                <h1>Hiking</h1>
-                <div class="panel panel-default">
-                    <div class="panel-body">
-                        {{ range .Data.Pages.ByPublishDate }}
-                        <div class="row">
-                            <!-- <div class="col-sm-4 col-md-4 col-lg-4">
-                                <h5 style="text-align: right">
-                                    {{ .Date.Format "January 2, 2006" }}
-                                </h5>
-                            </div> -->
-                            <div class="col-sm-8 col-md-8 col-lg-8">
-                                <h5 style="text-align: left">
-                                    <strong><a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a></strong>
-                                </h5>
+            <section id="hiking">
+                <div class="container">
+                    <h1>Hiking</h1>
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+                            <p>
+                                All of my major hiking (and related) trips are listed below in reverse chronological order. Click through to view my trail journal and/or more details about the trip.
+                            </p>
+                            <hr />
+
+                            {{ $root := .}}
+                            {{ range $key, $taxonomy := .Site.Taxonomies.trips }}
+                            <div class="row">
+                                <div class="col-sm-8 col-md-8 col-lg-8">
+                                    {{ $desctax := index $root.Site.Taxonomies.tripsdesc }}
+                                    {{ $descpages := index $desctax ($key | urlize) }}
+                                    {{ if len $descpages }}
+                                        {{ $descpage := index $descpages 0 }}
+                                        <h5 style="text-align: left">
+                                            <strong><a href="/trips/{{ $key }}">{{ $descpage.Page.Title }} ({{ $descpage.Page.Params.miles }} mi) - {{ $descpage.Page.Params.when }}</a></strong>
+                                        </h5>
+                                    {{end}}
+                                </div>
                             </div>
+                            {{ end }}
+
+                            {{ range .Data.Pages.ByPublishDate }}
+                            <div class="row">
+                                <div class="col-sm-8 col-md-8 col-lg-8">
+                                    <h5 style="text-align: left">
+                                        <strong><a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a></strong>
+                                    </h5>
+                                </div>
+                            </div>
+                            {{ end }}
                         </div>
-                        {{ end }}
                     </div>
                 </div>
-            </div>
+            </section>
         </div>
         <!-- Footer -->
         {{ partial "footer" . }}

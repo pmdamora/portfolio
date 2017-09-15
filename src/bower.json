@@ -16,6 +16,5 @@
   ],
   "dependencies": {
     "snazzy-info-window": "^1.1.0",
-    "svg-marker": "^0.7.0"
   }
 }

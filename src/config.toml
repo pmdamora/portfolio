@@ -1,4 +1,4 @@
-baseurl = "https://pmdamora.github.io/portfolio/"
+baseurl = "https://pmdamora.github.io/"
 languageCode = "en-US"
 title = "Paul D'Amora"
 theme = "paul"
@@ -16,6 +16,10 @@ pluralizelisttitles = "false"
   Github        = "username"
   Email         = "email@example.com"
   LinkedIn      = "username"
+
+[taxonomies]
+  trips = "trips"
+  tripsdesc = "tripsdesc"
 
 ## Main Menu
 # [[menu.main]]
@@ -43,4 +47,4 @@ pluralizelisttitles = "false"
   name = "resume"
   identifier = "resume"
   weight = 400
-  url = "/resume/"
+  url = "/resume.pdf"

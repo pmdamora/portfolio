@@ -135,21 +135,20 @@ function initMap() {
     }
     // Define the svg marker icon
     var markerIcon = {
-        path: 'M0,0 ' + baseSvg['inner'],
+        path: google.maps.SymbolPath.CIRCLE,
         fillColor: '#ed3426',
         fillOpacity: 1,
-        strokeColor: 'white',
-        strokeOpacity: 0.2,
-        anchor: new google.maps.Point(8, 12),
-        strokeWeight: 3,
-        scale: 2
+        strokeColor: '#ffffff',
+        strokeOpacity: 1,
+        strokeWeight: 0.8,
+        scale: 4
     };
 
     // Add a maker for each highpoint in the JSON data
     highpoint_data.forEach(function(obj) {
         // Add Marker
         var marker = new google.maps.Marker({
-            position: {lat: obj.lat, lng: obj.lang},
+            position: {lat: obj.lat, lng: obj.lon},
             map: map,
             icon: markerIcon,
             title: obj.highpoint

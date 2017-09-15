@@ -167,7 +167,7 @@ blockquote p { margin:0!important;}
 .label-success { background-color: #ed3426;}
 
 /* Projects */
-section#projects p {
+section#projects p, section#hiking p , section#highpoints p{
     font-size: 21px;
     line-height: 30px;
     margin-bottom:60px;

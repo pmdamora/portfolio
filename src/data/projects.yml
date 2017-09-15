@@ -11,9 +11,14 @@ source:
     language: Python, Javascript, CSS, HTML
   - icon: fa fa-github
     name: ccby-merger
-    description: A simple CLI Node.js app that adds a CC to the end of lecture videos automatically
+    description: A simple CLI built with Node.js to make the process of adding copyright information to end of lecture videos and other course content significantly faster.
     url: https://github.com/pmdamora/ccby-merger
     language: Javascript
+  - icon: fa fa-github
+    name: tictactoe
+    description: "I created a version of the classic game of Tic-Tac-Toe in order to improve my knowledge and understanding of PyQt and the Qt framework, as well as simply gain more experience creating non-web UIs."
+    url: https://github.com/pmdamora/tictactoe
+    language: Python
   - icon: fa fa-github
     name: ratemyslumlord
     description: "Submission for 2nd annual UVM/State Street Codefest: A simple Python website to help people rate their landlords and aggregate renting data."
