@@ -5,8 +5,6 @@ date: 2016-07-10
 ---
 
 
-#### **13.3 miles (13.3 total)**
+#### **2.0 miles (59.7 total)**
 
-I started off at around 9 AM at the Pine Cobble trail head. I made pretty good time up the trail -- the view from Pine Cobble was fantastic -- and I was at the Long Trail trail head by 11 AM. I ended up forgetting to bring toilet paper, so all I had was a couple of tissues I got from my dad's car. We're about to get a little graphic here, but I would have probably been okay, though unfortunately I was super sick to my stomach all day, and ended using all of the tissues as toilet paper today. I guess I'll get to try using natural toilet paper until I get to Manchester Center.
-
-I met some really cool people today, and was lucky enough to experience my first trail magic. The trail angel was super cool; he just finished the AT (in four months!) and is starting the PCT SOBO next week. I got to Congdon shelter a bit before 6 and I'm gonna hang here for the night. Only 13.3 miles for the day, but I guess I'm in no rush.
+Amanda dropped me off at the Rt 11/30 trailhead at about 6:30 PM today. I made great time to the Bromley shelter and got there just after 7. I started to continue on to the summit, but I realized I had forgotten to camel up on water, so I ended up staying at the Bromley shelter. Only 2 miles today, but I'm excited to get back to it tomorrow!

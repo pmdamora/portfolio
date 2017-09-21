@@ -5,8 +5,8 @@ date: 2016-07-15
 ---
 
 
-#### **13.3 miles (13.3 total)**
+#### **12.9 miles (133.1 total)**
 
-I started off at around 9 AM at the Pine Cobble trail head. I made pretty good time up the trail -- the view from Pine Cobble was fantastic -- and I was at the Long Trail trail head by 11 AM. I ended up forgetting to bring toilet paper, so all I had was a couple of tissues I got from my dad's car. We're about to get a little graphic here, but I would have probably been okay, though unfortunately I was super sick to my stomach all day, and ended using all of the tissues as toilet paper today. I guess I'll get to try using natural toilet paper until I get to Manchester Center.
+I almost quit today. I did not feel very well this morning and decided it would be better for me to just sleep. So I ended up not waking up until 12:30 and after a quick breakfast/lunch hit the trail at about 1:15. I had decided a few miles in that I wanted my girlfriend to come pick me up at Brandon Gap, because I felt very sick and just didn't want to hike anymore. I wasn't able to contact her, so I hiked on.
 
-I met some really cool people today, and was lucky enough to experience my first trail magic. The trail angel was super cool; he just finished the AT (in four months!) and is starting the PCT SOBO next week. I got to Congdon shelter a bit before 6 and I'm gonna hang here for the night. Only 13.3 miles for the day, but I guess I'm in no rush.
+Luckily the terrain was super easy today and the weather was great so my mood improved. The view from Horrid Cliffs was also a definite mood booster. I made it the 12.9 miles to Sucker Brook shelter by 7:15 and got to meet some pretty cool people there. I think I'm glad that I didn't leave today, although I still don't feel great so I'm looking forward to a day off, hopefully soon.

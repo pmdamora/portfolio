@@ -5,8 +5,10 @@ date: 2016-07-05
 ---
 
 
-#### **13.3 miles (13.3 total)**
+#### **14.7 miles (28.0 total)**
 
-I started off at around 9 AM at the Pine Cobble trail head. I made pretty good time up the trail -- the view from Pine Cobble was fantastic -- and I was at the Long Trail trail head by 11 AM. I ended up forgetting to bring toilet paper, so all I had was a couple of tissues I got from my dad's car. We're about to get a little graphic here, but I would have probably been okay, though unfortunately I was super sick to my stomach all day, and ended using all of the tissues as toilet paper today. I guess I'll get to try using natural toilet paper until I get to Manchester Center.
+Double trail magic day! I left Congdon shelter at around 7 AM and I hiked most of the way to Rt. 9 with Alex and Taylor (whom I had met the night before). There was an awesome gentleman with trail magic in the Rt. 9 parking lot, which was awesome. Then, just a couple hundred feet after that trail head, there was more trail magic!
 
-I met some really cool people today, and was lucky enough to experience my first trail magic. The trail angel was super cool; he just finished the AT (in four months!) and is starting the PCT SOBO next week. I got to Congdon shelter a bit before 6 and I'm gonna hang here for the night. Only 13.3 miles for the day, but I guess I'm in no rush.
+When we got to Hell Hollow Brook, we caught up to Chaser and met a girl named Sixteen who was actually swimming in the water. A bunch of us gathered and ate lunch there, before I left with Chaser to head towards Glastenbury.
+
+I got to Goddard shelter at around 4:30, and waited for Rob, Alex, and Taylor for about an hour before heading to the Glastenbury fire tower, where we're going to stay the night. The view from the top of the tower is absolutely fantastic! 14.7 miles today.

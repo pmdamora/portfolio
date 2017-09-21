@@ -5,8 +5,8 @@ date: 2016-07-06
 ---
 
 
-#### **13.3 miles (13.3 total)**
+#### **19.1 miles (47.1 total)**
 
-I started off at around 9 AM at the Pine Cobble trail head. I made pretty good time up the trail -- the view from Pine Cobble was fantastic -- and I was at the Long Trail trail head by 11 AM. I ended up forgetting to bring toilet paper, so all I had was a couple of tissues I got from my dad's car. We're about to get a little graphic here, but I would have probably been okay, though unfortunately I was super sick to my stomach all day, and ended using all of the tissues as toilet paper today. I guess I'll get to try using natural toilet paper until I get to Manchester Center.
+We got a decent start on our descent of Glastenbury mountain this morning. We made good time and got to Story Spring shelter by about noon, where we stopped for lunch. We caught up to Goose and Ribbet there and also met a guy named Bigfoot who's trying to hike the entire AT in less than 100 days. Just before we got to the base of Stratton Mountain, Taylor started to feel nauseous, so New Addition (Rob) and myself went on.
 
-I met some really cool people today, and was lucky enough to experience my first trail magic. The trail angel was super cool; he just finished the AT (in four months!) and is starting the PCT SOBO next week. I got to Congdon shelter a bit before 6 and I'm gonna hang here for the night. Only 13.3 miles for the day, but I guess I'm in no rush.
+The climb up Stratton Mountain wasn't too bad, and the view was fantastic. Taylor and Alex were able to catch up to us just before we started the descent to Stratton Pond. There wasn't a caretaker at the shelter that night so we ended up saving a few bucks. I was pretty tired, so I tried to stay in the shelter for a couple of hours, but I was having trouble sleeping, so I went into the woods and set up my hammock and slept like a baby after that. 19.1 miles for the day.

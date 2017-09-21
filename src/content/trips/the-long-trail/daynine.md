@@ -5,8 +5,8 @@ date: 2016-07-14
 ---
 
 
-#### **13.3 miles (13.3 total)**
+#### **18.6 miles (120.2 total)**
 
-I started off at around 9 AM at the Pine Cobble trail head. I made pretty good time up the trail -- the view from Pine Cobble was fantastic -- and I was at the Long Trail trail head by 11 AM. I ended up forgetting to bring toilet paper, so all I had was a couple of tissues I got from my dad's car. We're about to get a little graphic here, but I would have probably been okay, though unfortunately I was super sick to my stomach all day, and ended using all of the tissues as toilet paper today. I guess I'll get to try using natural toilet paper until I get to Manchester Center.
+Today was long. I got up and hit the trail by 7:15, and made it to the trailhead by 10:15. A very nice man picked me up and brought me in to town. HE told me all about his life; his health problems, his girlfriend, his kids. He told me he lives vicariously through people like me. It was surprising to see someone open up to me like that. I did my resupply and walked over to a small restaurant to get a late breakfast. Getting a hitch back to the trail was easy, and I got started by 1:15.
 
-I met some really cool people today, and was lucky enough to experience my first trail magic. The trail angel was super cool; he just finished the AT (in four months!) and is starting the PCT SOBO next week. I got to Congdon shelter a bit before 6 and I'm gonna hang here for the night. Only 13.3 miles for the day, but I guess I'm in no rush.
+When I got to the Rolston Rest shelter, I found Fresh Produce (aka Guardian and Phoenix). I also caught up with Claire and Roo. I chatted for a while before heading on to the David Logan shelter. It started pouring about a mile in, which was actually kind of fun for an hour or so. Eventually my mood kind of turned and I felt like crap when I finally got to the shelter. I didn't even have the energy to cook dinner. 18.6 miles on a town day is not too bad though.

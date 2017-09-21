@@ -5,8 +5,8 @@ date: 2016-07-18
 ---
 
 
-#### **13.3 miles (13.3 total)**
+#### **4.6 miles (159.4 total)**
 
-I started off at around 9 AM at the Pine Cobble trail head. I made pretty good time up the trail -- the view from Pine Cobble was fantastic -- and I was at the Long Trail trail head by 11 AM. I ended up forgetting to bring toilet paper, so all I had was a couple of tissues I got from my dad's car. We're about to get a little graphic here, but I would have probably been okay, though unfortunately I was super sick to my stomach all day, and ended using all of the tissues as toilet paper today. I guess I'll get to try using natural toilet paper until I get to Manchester Center.
+I didn't get on the trail until much later than I had hoped today. I needed the extra rest though. When I got off yesterday, my feet were in pretty bad shape. Hopefully I can do a better job of keeping them dry now, but unfortunately the trail doesn't make that easy. I got started at around 3:15 at Lincoln Gap and made great time to the summit of Mount Abraham. The view was phenomenal, and the summit was very cool. It was pretty cloudy today, so there were a few moments when I was in a cloud on the peak, which was very cool.
 
-I met some really cool people today, and was lucky enough to experience my first trail magic. The trail angel was super cool; he just finished the AT (in four months!) and is starting the PCT SOBO next week. I got to Congdon shelter a bit before 6 and I'm gonna hang here for the night. Only 13.3 miles for the day, but I guess I'm in no rush.
+By the time I got to Lincoln Peak, storm clouds were rolling in and it was getting very windy. Just after leaving Nancy Hanks Peak there was an extremely loud thunder strike maybe 50 feet away from me. It had only started to rain a few minutes before. I literally jumped in the air and sprinted to the Castle Rock chairlift. I'm planning on sleeping inside tonight, which might not be super fun since I can't hang my hammock and I don't feel have a sleeping pad, but it's super nice to have a warm, dry, and safe place to spend the night, so I'm sure I'll get over it.

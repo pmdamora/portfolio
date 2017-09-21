@@ -1,8 +1,9 @@
-baseurl = "http://pauldamora.com/"
+baseurl = "http://www.pauldamora.com/"
 languageCode = "en-US"
 title = "Paul D'Amora"
 theme = "paul"
 pluralizelisttitles = "false"
+
 disqusShortname = "pauldamora"
 googleAnalytics = "UA-106776049-1"
 
@@ -50,9 +51,4 @@ googleAnalytics = "UA-106776049-1"
   name = "résumé"
   identifier = "resume"
   weight = 400
-  url = "/resume.pdf"
-# [[menu.main]]
-#   name = "contact"
-#   identifier = "contact"
-#   weight = 500
-#   url = "/contact"
+  url = "documents/resume.pdf"

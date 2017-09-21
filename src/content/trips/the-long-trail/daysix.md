@@ -5,8 +5,10 @@ date: 2016-07-11
 ---
 
 
-#### **13.3 miles (13.3 total)**
+#### **17.8 miles (77.5 total)**
 
-I started off at around 9 AM at the Pine Cobble trail head. I made pretty good time up the trail -- the view from Pine Cobble was fantastic -- and I was at the Long Trail trail head by 11 AM. I ended up forgetting to bring toilet paper, so all I had was a couple of tissues I got from my dad's car. We're about to get a little graphic here, but I would have probably been okay, though unfortunately I was super sick to my stomach all day, and ended using all of the tissues as toilet paper today. I guess I'll get to try using natural toilet paper until I get to Manchester Center.
+Today was a great day. I woke up at about 5:30 AM, heard rain, and decided to sleep a bit more. Well I didn't end up leaving camp until 10:30, but by the time I got up, there was no more rain, and I felt great. The hike to the summit of Bromley didn't take long, and there were some amazing views. I didn't see any spots for a hammock, so it was probably good that I didn't camp there the night before. I was a little bummed that the peak was so developed; it takes away from the wilderness vibes, but it did provide for a very open summit, which was nice. I hiked to Styles Peak for lunch, which also had a good view.
 
-I met some really cool people today, and was lucky enough to experience my first trail magic. The trail angel was super cool; he just finished the AT (in four months!) and is starting the PCT SOBO next week. I got to Congdon shelter a bit before 6 and I'm gonna hang here for the night. Only 13.3 miles for the day, but I guess I'm in no rush.
+After I left Styles I felt really pumped and started going pretty fast. Baker Peak had looked kind of boring based on the Guthooks guide, but it was a beautiful view for very little work. At the USFS 10 trailhead, I was lucky enough to get an ice cream sandwich and a soda from some trail angels. On the final 2 miles to Little Rock Pond, I slipped and fell down pretty hard. One of my poles got slightly bent and I got a little bruised, but nothing too bad.
+
+I got to swim and rinse some clothes in the pond when I finally made it to the shelter at about 6:20 PM. 17.8 miles today, and I hiked all of it alone,  which was kind of nice after doing so much group hiking in the first section. Less than 200 miles to go!

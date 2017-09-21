@@ -5,8 +5,8 @@ date: 2016-07-08
 ---
 
 
-#### **13.3 miles (13.3 total)**
+#### **0.0 miles (57.7 total)**
 
-I started off at around 9 AM at the Pine Cobble trail head. I made pretty good time up the trail -- the view from Pine Cobble was fantastic -- and I was at the Long Trail trail head by 11 AM. I ended up forgetting to bring toilet paper, so all I had was a couple of tissues I got from my dad's car. We're about to get a little graphic here, but I would have probably been okay, though unfortunately I was super sick to my stomach all day, and ended using all of the tissues as toilet paper today. I guess I'll get to try using natural toilet paper until I get to Manchester Center.
+Unfortunately today I'm going to have to leave the trail for a couple of days. Alex and Taylor will also be leaving in order to sort out their resupplies and gear, while New Edition will be switching to section hiking. I'm already itching to get back out on the trail, but there are more important things than trail life at the moment.
 
-I met some really cool people today, and was lucky enough to experience my first trail magic. The trail angel was super cool; he just finished the AT (in four months!) and is starting the PCT SOBO next week. I got to Congdon shelter a bit before 6 and I'm gonna hang here for the night. Only 13.3 miles for the day, but I guess I'm in no rush.
+Jeff dropped us off in town at a cute little restaurant this morning called Up For Breakfast, where we got breakfast. I got a maple latte and eggs Benedict. After we finished eating, we walked over to Price Chopper and waited for Alex and Taylor's ride, who was kind enough to give me a life to Burlington as well. I'm exited to see my girlfriend for a couple of days, and I can't wait to get back on Sunday.
