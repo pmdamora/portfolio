@@ -3,9 +3,7 @@
         <h1>{{ .Site.Data.projects.name }}</h1>
         <div class="panel panel-default">
             <div class="panel-body">
-                <p>
-                    Some of my recent work and projects can be found in their entirety on my <a href="https://github.com/pmdamora">Github page</a>. Additionally, a select few of my projects are detailed below.
-                </p>
+                <p>{{ .Site.Params.Text.Projects | safeHTML }}</p>
                 <hr />
                 {{ range $i, $el := .Site.Data.projects.source }}
                 <h5>

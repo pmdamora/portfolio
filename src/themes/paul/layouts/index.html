@@ -9,7 +9,7 @@
                         <div class="avatar">
                             <img class="img-circle" src="{{ .Site.BaseURL }}img/{{ .Site.Params.avatar }}">
                         </div>
-                        <p class="tagline">I'm <strong>Paul D'Amora</strong>, a Software Developer <br /> <span class="amp">&amp;</span> Adventurer.</p>
+                        <p class="tagline">{{ .Site.Params.Tagline | safeHTML }}</p>
                     </div>
                 </section>
             </div>

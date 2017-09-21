@@ -3,7 +3,7 @@
         <h1>{{ .Site.Data.highpoints.name }}</h1>
         <div class="panel panel-default">
             <div class="panel-body">
-                <p><a href="http://highpointers.org/">U.S. Highpointing</a> refers to ascending to the natural point with the highest elevation in each of the 50 U.S. states. I hope to someday reach the top of every state, and will document my progress on the map below</p>
+                <p>{{ .Site.Params.Text.Highpoints | safeHTML }}</p>
             </div>
         </div>
     </div>

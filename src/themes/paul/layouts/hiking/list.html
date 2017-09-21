@@ -9,9 +9,7 @@
                     <h1>Hiking</h1>
                     <div class="panel panel-default">
                         <div class="panel-body">
-                            <p>
-                                All of my major hiking (and related) trips are listed below in reverse chronological order. Click through to view my trail journal and/or more details about the trip.
-                            </p>
+                            <p>{{ .Site.Params.Text.Hiking | safeHTML }}</p>
                             <hr />
 
                             {{ $root := .}}
