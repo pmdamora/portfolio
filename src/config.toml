@@ -52,7 +52,7 @@ googleAnalytics = "UA-106776049-1"
   name = "résumé"
   identifier = "resume"
   weight = 400
-  url = "documents/resume.pdf"
+  url = "/documents/resume.pdf"
 
   ## Text Descriptions
   [params.text]
