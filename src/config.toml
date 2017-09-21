@@ -3,6 +3,9 @@ languageCode = "en-US"
 title = "Paul D'Amora"
 theme = "paul"
 pluralizelisttitles = "false"
+disqusShortname = "pauldamora"
+googleAnalytics = "UA-106776049-1"
+
 
 [permalinks]
   post = "/:year/:month/:day/:slug"
@@ -10,23 +13,23 @@ pluralizelisttitles = "false"
 [params]
   avatar = "profile.png"
   author = "Paul D'Amora"
-  description = "Describe your website"
 
 [params.social]
-  Github        = "username"
-  Email         = "email@example.com"
-  LinkedIn      = "username"
+  Github        = "pmdamora"
+  Email         = "pmdamora@gmail.com"
+  LinkedIn      = "pmdamora"
+  Instagram     = "pmdamora"
 
 [taxonomies]
   trips = "trips"
   tripsdesc = "tripsdesc"
 
 ## Main Menu
-# [[menu.main]]
-#   name = "blog"
-#   weight = 100
-#   identifier = "blog"
-#   url = "/blog/"
+[[menu.main]]
+  name = "writings"
+  weight = 100
+  identifier = "writings"
+  url = "/writings/"
 [[menu.main]]
   name = "projects"
   identifier = "projects"
@@ -44,7 +47,12 @@ pluralizelisttitles = "false"
   weight = 300
   url = "/hiking/highpoints"
 [[menu.main]]
-  name = "resume"
+  name = "résumé"
   identifier = "resume"
   weight = 400
   url = "/resume.pdf"
+# [[menu.main]]
+#   name = "contact"
+#   identifier = "contact"
+#   weight = 500
+#   url = "/contact"

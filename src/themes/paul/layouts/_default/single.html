@@ -1,5 +1,6 @@
 {{ partial "head" . }}
     <body>
+        {{ partial "overlay" . }}
         <div id="wrap">
             <!-- Header -->
             {{ partial "header" . }}
@@ -22,6 +23,7 @@
                             {{ .Content }}
                         </div>
                     </div>
+                    {{ partial "disqus" . }}
                 </div>
             </div>
         </div>

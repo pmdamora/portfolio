@@ -1,15 +1,19 @@
 {{ partial "head" . }}
-    <body>
-        <div id="wrap">
-            {{ partial "header" . }}
-            <section id="about">
-                <div class="container">
-                    <div class="avatar">
-                        <img class="img-circle" src="{{ .Site.BaseURL }}img/{{ .Site.Params.avatar }}" alt="Responsive image">
+    <body id="dark-bg">
+        <div class="home">
+            {{ partial "overlay" . }}
+            <div id="wrap">
+                {{ partial "header" . }}
+                <section id="about">
+                    <div class="container">
+                        <div class="avatar">
+                            <img class="img-circle" src="{{ .Site.BaseURL }}img/{{ .Site.Params.avatar }}">
+                        </div>
+                        <p class="tagline">I'm <strong>Paul D'Amora</strong>, a Software Developer <br /> <span class="amp">&amp;</span> Adventurer.</p>
                     </div>
-                </div>
-            </section>
+                </section>
+            </div>
+            {{ partial "footer" . }}
         </div>
-        {{ partial "footer" . }}
     </body>
 </html>
