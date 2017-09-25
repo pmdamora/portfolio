@@ -12,6 +12,7 @@ install:
 script:
   - cd src
   - ../binaries/hugo
+  - echo 'www.pauldamora.com' > public/CNAME
 
 # Deploy to GitHub pages
 deploy:
