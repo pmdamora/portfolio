@@ -24,6 +24,7 @@ install:
 
 # Build the website
 script:
+  - cd src
   - "./bin/hugo"
   - echo 'www.pauldamora.com' > public/CNAME
 
