@@ -1,6 +1,11 @@
 name: Projects
 source:
   - icon: fa fa-github
+    name: SoundArt
+    description: SoundArt is a Flask web application to create waveform images from an uploaded audio file.
+    url: https://github.com/pmdamora/SoundArt
+    language: Python, Javascript
+  - icon: fa fa-github
     name: Forest
     description: A Python, Flask, Keras, and OpenCV project that leverages machine learning, feature extraction, and image processing techniques to predict the species of a leaf.
     url: https://github.com/pmdamora/forest
@@ -26,6 +31,6 @@ source:
     language: Python, Javascript, CSS, HTML
   - icon: fa fa-github
     name: TravLog
-    description: "Travlog is a mobile app developed for the iPhone which monitors the location of participants in a travel survey. The app is designed to gather information regarding the mode, purpose and frequency of intercity travel to inform policy makers and provide detailed information to assist infrastructure planning."
+    description: "Travlog is a mobile app developed for the iPhone which monitors the location of participants in a travel survey. The app is designed to gather information regarding the mode, purpose and frequency of intercity travel to inform policy makers and provide detailed information to aid infrastructure planning."
     url: https://github.com/IanPFoertsch/275_travel_app
     language: Swift

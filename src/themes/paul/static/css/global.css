@@ -72,6 +72,10 @@ section#projects p, section#hiking p , section#highpoints p{
     text-transform: uppercase;
 }
 .infowindow h1 { font-size: 25px;}
+section#highpoints .infowindow p {
+    font-size: 14px;
+    line-height: normal;
+}
 
 .home .text-muted { color: #bbb}
 
@@ -367,18 +371,22 @@ li:hover .subnav {
 /* 2.3 Content
 ----------------------------------------------------------- */
 .home {
-    /*background-image: url("../img/background.png");*/
-    background: #272727;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.7)
+        ),
+        url("../img/background.jpg");
+    background-color: #272727;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
-    min-height: 100%;
-    padding-bottom: 80px;
+    min-height: auto;
+    padding-bottom: 0px;
     position: relative;
 }
 
-body#dark-bg {
+body#bg {
     height: 100%;
     min-height: auto;
     padding-bottom: 0;
@@ -388,6 +396,7 @@ body#dark-bg {
 .panel { box-shadow: none;}
 
 .avatar { padding-top: 5%;}
+.avatar .img-circle {   height: 190px; width: 190px;}
 .tagline { margin-top: 20px;}
 
 
@@ -455,7 +464,9 @@ section#projects p, section#hiking p , section#highpoints p {
 
 .infowindow { width: 350px;}
 .summitPhoto { width: 100%;}
-
+section#highpoints .infowindow p { margin-bottom: 0;}
+.infowindow h1 { margin-bottom: 8px;}
+.infowindow hr { margin: 15px 0;}
 
 /* 2.3.4 Contact
 ----------------------------------------------------------- */
