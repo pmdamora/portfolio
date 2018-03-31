@@ -119,7 +119,7 @@ function initMap() {
         heatmap: { enabled: false },
         query: {
             select: "col3",
-            from: "10oOONWwooya-RuroerHH9aPZHGazIP54gKoBUlF6",
+            from: "14pWR2_UHje5MnSzvUoV2LqHZ4PojQx3L_lVmxYqW",
             where: ""
         },
         options: {
