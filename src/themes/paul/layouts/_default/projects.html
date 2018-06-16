@@ -8,7 +8,12 @@
                 {{ range $i, $el := .Site.Data.projects.source }}
                 <h5>
                     <i class="{{ .icon }}"></i>&nbsp;&nbsp;
-                    <strong><a href="{{ $el.url }}">{{ $el.name }}</a></strong>&nbsp;-&nbsp;{{ $el.description }}
+                    <strong>
+                        <a href="{{ $el.url }}">{{ $el.name }}</a>
+                        {{ if .demo }}
+                            : <a href="{{ .demo }}">demo</a>
+                        {{ end }}
+                    </strong> - {{ $el.description }}
                 </h5>
                 {{ end }}
             </div>
