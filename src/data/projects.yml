@@ -1,6 +1,16 @@
 name: Projects
 source:
   - icon: fa fa-github
+    name: rails-weather
+    description: A Ruby on Rails application which uses a public weather api to allows users to track the weather conditions and forecasts in different cities.
+    url: https://github.com/pmdamora/rails-weather
+    language: Ruby, Javascript
+  - icon: fa fa-github
+    name: fnv-cracker-app
+    description: A Java FNV-1 128 bit brute-force hash cracker web application built with Spring Boot.
+    url: https://github.com/pmdamora/fnv-cracker-app
+    language: Java, Javascript
+  - icon: fa fa-github
     name: SoundArt
     description: SoundArt is a Flask web application to create waveform images from an uploaded audio file.
     url: https://github.com/pmdamora/SoundArt
