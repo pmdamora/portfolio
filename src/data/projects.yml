@@ -4,7 +4,7 @@ source:
     name: rails-weather
     description: A Ruby on Rails application which uses a public weather api to allows users to track the weather conditions and forecasts in different cities.
     url: https://github.com/pmdamora/rails-weather
-    demo: https://fast-cove-84745.herokuapp.com/
+    demo: https://rails-weather-app.herokuapp.com/
     language: Ruby, Javascript
   - icon: fa fa-github
     name: fnv-cracker-app
