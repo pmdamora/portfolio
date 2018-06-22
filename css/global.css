@@ -1,0 +1,586 @@
+/* -----------------------------------------------------------
+
+	Project Name:    pauldamora.com
+    Author:          Paul D'Amora
+    Author URI:      http://pauldamora.com
+	Version:         1.0
+    Created:         July 12, 2017
+	Modified:        September 20, 2017
+    License:         GNU General Public License version 3.0
+	License URI:     http://www.gnu.org/licenses/gpl-3.0.html
+
+	[Table of contents]
+		1. Typography
+            1.1     Text Elements
+            1.2     Links
+            1.3     Headings
+            1.4     Navigation
+		2. Structure
+            2.1     Header
+            2.2     Navigation
+                2.2.1   Overlay
+                2.2.2   Hamburger
+                2.2.3   Navbar
+            2.3     Content
+                2.3.1   Blog
+                2.3.2   Projects
+                2.3.3   Highpoints
+                2.3.4   Contact
+                2.3.5   Footer
+            2.4     Media Queries
+
+----------------------------------------------------------- */
+
+
+/* -----------------------------------------------------------
+	1. TYPOGRAPHY
+----------------------------------------------------------- */
+/* 1.1 Text Elements
+----------------------------------------------------------- */
+body {
+    color: #232a38;
+    font-family: 'Quattrocento', Helvetica, Arial, sans-serif;
+}
+span.amp {
+    font-family: 'Quattrocento', Helvetica, Arial, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#navbar, .navbar-brand, .tagline, h1, #map-container .container, #footer, form {
+    font-family: 'Quattrocento Sans', Helvetica, sans-serif;
+}
+
+#about { color: white;}
+.tagline { font-size: 24px;}
+
+.blogpost {
+    font-size: 21px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+section#projects p, section#hiking p , section#highpoints p{
+    font-size: 21px;
+    line-height: 30px;
+}
+
+.highpoint-list ul { font-size: 16px;}
+.highpoint-list h4 {
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.infowindow h1 { font-size: 25px;}
+section#highpoints .infowindow p {
+    font-size: 14px;
+    line-height: normal;
+}
+
+.home .text-muted { color: #bbb}
+
+
+.form-label, .form-control { font-size: 16px;}
+.form-label { font-weight: normal;}
+.form-control { line-height: 22px;}
+
+.btn-primary { font-size: 16px;font-weight: bold;}
+
+
+
+/* 1.2 Links
+----------------------------------------------------------- */
+a {
+    -webkit-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    transition: all 300ms ease;}
+
+    a { color: #ed3426;}
+    a:hover { color: #000;text-decoration: none;}
+
+.social-links li a { color: #777;}
+.social-links li a:hover { color: #ed3426;}
+
+.home .social-links li a { color: #bbb;}
+.home .social-links li a:hover { color: #ed3426;}
+
+#social-overlay .social-links li a { color: #ddd;font-size: 20px;}
+#social-overlay .social-links li a:hover { color: white;}
+
+
+/* 1.3 Headings
+----------------------------------------------------------- */
+.h1, .h2, .h3, h1, h2, h3 { margin: 30px 0;}
+
+.h1, h1 { font-size: 36px; font-weight: bold;}
+.h3, h3 { font-size: 28px;}
+.h4, h4 { font-size: 22px;}
+
+.panel-default h4 {
+    text-align: left;
+    line-height: 24px;
+    font-size: 22px;
+}
+.panel-default h5 {
+    text-align: left;
+    line-height: 30px;
+    font-size: 18px;
+}
+.panel-default h6 { font-size: 15px;}
+
+
+/* 1.4 Navigation
+----------------------------------------------------------- */
+#navbar { letter-spacing: 1px;}
+.navbar-default .navbar-nav > li > a { color: #ed3426;}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #232a38;
+}
+
+.navbar-brand {
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;}
+    .navbar-default .navbar-brand { color: black;}
+
+.burger-container .navbar-brand {
+    color: black;
+    font-size: 24px;}
+    .burger-container .navbar-brand-overlay { color: white;}
+
+.home .navbar-brand { color: white!important;}
+
+.navbar-overlay { color: white;}
+.navbar-overlay .navbar-nav {
+    font-size: 40px;
+    font-weight: bold;
+}
+.navbar-overlay .navbar-nav > li a {
+    color: white;
+    line-height: 40px;
+}
+
+.home .navbar-default .navbar-nav > li > a:hover, .home .navbar-default .navbar-nav > li > a:focus {
+    color: white;
+}
+
+
+/* -----------------------------------------------------------
+	2. STRUCTURE
+----------------------------------------------------------- */
+.container {
+    width: auto;
+    max-width: 800px;
+    text-align: center;
+}
+
+html {
+    background-color: #fff;
+    height: 100%;
+}
+
+body {
+    background-color: #fff;
+    min-height: 100%;
+    padding-bottom: 80px;
+    position: relative;
+}
+
+#wrap { margin: 0 auto;}
+
+
+/* 2.1 Header
+----------------------------------------------------------- */
+.navbar-header { margin: 0 auto;text-align: center;width: 100%;}
+.navbar-brand { float: none;margin: 0;}
+
+.burger-container {
+    display: none;
+    margin: 0 15px;
+    padding-top: 20px;
+    position: relative;
+    z-index: 3;}
+    .burger-container .navbar-brand, .burger-container .navbar-header {
+        float: left;}
+
+    .burger-container .navbar-header { margin: 0!important;width: auto;}
+    .burger-container .navbar-brand { padding: 15px 0;}
+
+
+/* 2.2 Navigation
+----------------------------------------------------------- */
+/* 2.2.1 OVERLAY
+----------------------------------------------------------- */
+.blurred { filter: blur(5px);}
+.no-scroll { overflow: hidden!important;}
+
+.navbar-overlay {
+    background-color: rgba(237, 52, 38, 0.90);
+    display: none;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;}
+
+    .navbar-overlay .navbar-nav {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);}
+
+    .navbar-overlay .navbar-nav > li { display: block;}
+    .navbar-overlay .navbar-nav > li a { padding: 0 0 12px 0;}
+    .navbar-overlay .navbar-nav > li a:hover {
+        background: transparent;opacity: 0.7;}
+
+#social-overlay {
+    display: none;
+    bottom: 30px;
+    position: fixed;
+    right: 15px;
+    z-index: 4;
+}
+
+#social-overlay .social-links li { margin-left: 10px;}
+
+
+/* 2.2.2 HAMBURGER
+----------------------------------------------------------- */
+.hamburger {
+    padding: 11px 0 11px 11px;
+    display: inline-block;
+    cursor: pointer;
+    transition-property: opacity, filter;
+    transition-duration: 0.15s;
+    transition-timing-function: linear;
+    font: inherit;
+    color: inherit;
+    outline: none;
+    text-transform: none;
+    background-color: transparent;
+    border: 0;
+    margin: 0;
+    float: right;
+    overflow: visible;}
+    .hamburger:hover { opacity: 0.7; }
+
+.hamburger-box {
+    width: 30px;
+    height: 18px;
+    display: inline-block;
+    position: relative; }
+
+.hamburger-inner {
+    display: block;
+    top: 50%;
+    margin-top: -1.5px; }
+    .hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
+        width: 30px;
+        height: 3px;
+        background-color: #ed3426;
+        border-radius: 3px;
+        position: absolute;
+        transition-property: transform;
+        transition-duration: 0.15s;
+        transition-timing-function: ease; }
+    .hamburger-inner::before, .hamburger-inner::after {
+        content: "";
+        display: block; }
+    .hamburger-inner::before { top: -7.5px; }
+    .hamburger-inner::after { bottom: -7.5px; }
+
+.hamburger--slider .hamburger-inner { top: 1.5px; }
+    .hamburger--slider .hamburger-inner::before {
+        top: 7.5px;
+        transition-property: transform, opacity;
+        transition-timing-function: ease;
+        transition-duration: 0.15s; }
+    .hamburger--slider .hamburger-inner::after { top: 16px; }
+    .hamburger--slider.is-active .hamburger-inner {
+        background-color: white;transform: translate3d(0, 7.5px, 0) rotate(45deg); }
+    .hamburger--slider.is-active .hamburger-inner::before {
+        transform: rotate(-45deg) translate3d(-4.2857175px, -4.5px, 0);
+        opacity: 0;}
+    .hamburger--slider.is-active .hamburger-inner::after {
+        background-color: white;transform: translate3d(0, -16px, 0) rotate(-90deg); }
+
+
+/* 2.2.3 NAVBAR
+----------------------------------------------------------- */
+.navbar-nav {
+    width: 100%;
+    text-align: center;}
+    .navbar-nav > li {
+        float: none;
+        display: inline-block;
+        position: relative;
+    }
+
+.navbar-static-top { margin-bottom: 10px;}
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+    padding-top: 30px;
+}
+
+.subnav {
+    background:#fff;
+    border: 1px solid #aaa;
+    border-radius: 3px;
+    left: -20px;
+    list-style-type: none;
+    opacity: 0;
+    padding: 20px;
+    position:absolute;
+    top:100%;
+	transition: all 300ms ease;
+    visibility: hidden;}
+
+    .subnav:after, .subnav:before {
+    	bottom: 100%;
+    	left: 50%;
+    	border: solid transparent;
+    	content: " ";
+    	height: 0;
+    	width: 0;
+    	position: absolute;
+    	pointer-events: none;}
+
+    .subnav:after {
+    	border-color: rgba(255, 255, 255, 0);
+    	border-bottom-color: #ffffff;
+    	border-width: 5px;
+    	margin-left: -5px;}
+    .subnav:before {
+    	border-color: rgba(170, 170, 170, 0);
+    	border-bottom-color: #aaa;
+    	border-width: 6px;
+    	margin-left: -6px;}
+
+    .subnav li {  list-style-type: none;}
+
+li:hover .subnav {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+/* 2.3 Content
+----------------------------------------------------------- */
+.home {
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.7)
+        ),
+        url("../img/background.jpg");
+    background-color: #272727;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    min-height: auto;
+    padding-bottom: 0px;
+    position: relative;
+}
+
+body#bg {
+    height: 100%;
+    min-height: auto;
+    padding-bottom: 0;
+    position: relative;
+}
+
+.panel { box-shadow: none;}
+
+.avatar { padding-top: 5%;}
+.avatar .img-circle {   height: 190px; width: 190px;}
+.tagline { margin-top: 20px;}
+
+
+/* 2.3.1 Blog
+----------------------------------------------------------- */
+.blogpost p, blockquote, .blogpost .h1, .blogpost .h2, .blogpost .h3, .blogpost .h4,
+.blogpost .h5, .blogpost .h6, .blogpost h1, .blogpost h2, .blogpost h3, .blogpost h4,
+.blogpost h5, .blogpost h6, .blogpost ol, .blogpost ul {
+    margin-left: auto; margin-right: auto; width: 80%;
+}
+
+pre { border-radius: 0; border: 0 none; margin: 30px 0;}
+p { margin: 0 0 30px;}
+blockquote { margin: 40px 0;}
+blockquote p { margin:0!important;}
+
+.img-responsive {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+
+.panel{ border-style: none;}
+.panel-body { padding-top: -10px;}
+
+.blog-post{ padding-top: 15px;}
+.blog-title{ padding-top: 2px;}
+
+.label-success { background-color: #ed3426;}
+
+
+/* 2.3.2 Projects
+----------------------------------------------------------- */
+section#projects p, section#hiking p , section#highpoints p {
+    margin-bottom:60px;
+    text-align:left;
+}
+
+
+/* 2.3.3 Highpoints
+----------------------------------------------------------- */
+#map { height: 600px;}
+#map-container { position:relative;margin-bottom: 40px}
+#map-container .container { max-width: 80%;}
+
+.highpoint-list {
+    background: rgba(255,255,255,0.9);
+    height: 600px;
+    overflow-y: scroll;
+    padding: 40px;
+    position: absolute;
+    text-align: left;
+    top: 0px;
+    width: 32.421875%;
+}
+
+.highpoint-list ul { padding: 0;}
+.highpoint-list ul li { list-style-type: none;padding: 8px 0;}
+.highpoint-list ul li a { cursor: pointer;}
+
+.highpoint-list h4 {
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.infowindow { width: 350px;}
+.summitPhoto { width: 100%;}
+section#highpoints .infowindow p { margin-bottom: 0;}
+.infowindow h1 { margin-bottom: 8px;}
+.infowindow hr { margin: 15px 0;}
+
+/* 2.3.4 Contact
+----------------------------------------------------------- */
+.form-control {
+    border-radius: 0;
+    margin-bottom: 25px;
+    padding: 16px;
+}
+input.form-control { height: 50px;}
+
+.form-control:focus { border-color: #ed3426;box-shadow: none;}
+
+.form-label {
+    float: left;
+    margin-bottom: 15px;
+}
+
+.btn-primary {
+    background-color: #ed3426;
+    border: 0 none;
+    border-radius: 20px;
+    padding: 8px 16px;
+}
+
+.btn-primary:hover { background-color: rgba(237, 52, 38, 0.8);}
+
+
+/* 2.3.5 Footer
+----------------------------------------------------------- */
+footer {
+    bottom: 0;
+    height: 80px;
+    left: 0;
+    position: absolute;
+    right: 0;
+}
+
+#footer { margin: 20px 15px 19px 15px;}
+
+#footer .text-muted {
+    display: inline;
+    left: 50%;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    transform: translateX(-50%);}
+
+.home footer hr { display: none;}
+
+.social-links {
+    display: inline;
+    float: right;
+    padding: 0;
+    margin: 0;}
+    .social-links li {
+        display: inline;
+        list-style-type: none;
+        margin-left: 5px;}
+
+#return-to-top {
+    position: fixed;
+    bottom: -30px;
+    right: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    width: 30px;
+    height: 30px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top i {
+    color: #fff;
+    margin: 0;
+    position: relative;
+    left: 9.6px;
+    top: 4px;
+    font-size: 11px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top:hover {
+    background: rgba(237, 52, 38, 0.9);
+}
+#return-to-top:hover i {
+    color: #fff;
+    top: 1px;
+}
+
+#return-to-top:focus i {
+    top: 0px;
+}
+
+/* 2.4 MEDIA QUERIES
+----------------------------------------------------------- */
+@media (max-width: 768px) {
+    .burger-container { display: block;}
+    .navbar-default { display: none;}
+    #map { display: none;}
+    .highpoint-list {
+        background: transparent;
+        height: auto;
+        overflow-y: auto;
+        padding: 0;
+        position: static;
+        width: auto;
+    }
+}

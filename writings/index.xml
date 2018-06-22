@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Writings on Paul D&#39;Amora</title>
+    <link>http://www.pauldamora.com/writings/</link>
+    <description>Recent content in Writings on Paul D&#39;Amora</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Fri, 15 Jun 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.pauldamora.com/writings/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Welcome</title>
+      <link>http://www.pauldamora.com/writings/my-first-post/</link>
+      <pubDate>Fri, 15 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.pauldamora.com/writings/my-first-post/</guid>
+      <description>Welcome to the writings section of my personal site. Watch this space.</description>
+    </item>
+    
+  </channel>
+</rss>

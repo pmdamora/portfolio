@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>The Long Trail on Paul D&#39;Amora</title>
+    <link>http://www.pauldamora.com/tripsdesc/the-long-trail/</link>
+    <description>Recent content in The Long Trail on Paul D&#39;Amora</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    
+	<atom:link href="http://www.pauldamora.com/tripsdesc/the-long-trail/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The Long Trail</title>
+      <link>http://www.pauldamora.com/desc/trips-longtrail/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.pauldamora.com/desc/trips-longtrail/</guid>
+      <description>The Long Trail is a hiking trail located in Vermont, running the length of the state. It is the oldest long-distance trail in the United States, constructed between 1910 and 1930 by the Green Mountain Club.</description>
+    </item>
+    
+  </channel>
+</rss>
