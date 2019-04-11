@@ -4,27 +4,27 @@ module.exports = {
     es6: true,
     node: true
   },
-  parser: "@typescript-eslint/parser",
+  parser: '@typescript-eslint/parser',
   extends: [
-    "airbnb",
-    "prettier",
-    "prettier/react",
-    "plugin:@typescript-eslint/recommended",
-    "prettier/@typescript-eslint"
+    'airbnb',
+    'prettier',
+    'prettier/react',
+    'plugin:@typescript-eslint/recommended',
+    'prettier/@typescript-eslint'
   ],
   globals: {
-    Atomics: "readonly",
-    SharedArrayBuffer: "readonly"
+    Atomics: 'readonly',
+    SharedArrayBuffer: 'readonly'
   },
   parserOptions: {
     ecmaFeatures: {
       jsx: true
     },
     ecmaVersion: 2018,
-    sourceType: "module"
+    sourceType: 'module'
   },
-  plugins: ["react"],
+  plugins: ['react'],
   rules: {
-    quotes: [2, "single", { avoidEscape: true }]
+    quotes: [2, 'single', { avoidEscape: true }]
   }
 };

@@ -1,14 +1,5 @@
-import React, { Component } from 'react';
-import { Box, Heading } from 'grommet';
+import React from 'react';
 
-export default class extends Component {
-  render() {
-    return (
-      <Box pad="xsmall">
-        <Heading>
-          <strong>Hello, World</strong>
-        </Heading>
-      </Box>
-    );
-  }
-}
+export default () => {
+  return <strong>Hello, World</strong>;
+};
