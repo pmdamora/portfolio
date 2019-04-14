@@ -1,5 +1,7 @@
-import React from 'react';
+import React, { FunctionComponent } from 'react';
 
-export default () => {
+const HomePage: FunctionComponent<{}> = () => {
   return <strong>Hello, World</strong>;
 };
+
+export default HomePage;
