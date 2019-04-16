@@ -1,23 +1,7 @@
 import styled from 'styled-components';
-import { spacingStyle } from '@portfolio/components/utils';
+import { fillStyle, spacingStyle } from '@portfolio/components/utils';
 
 import { BoxProps } from '@portfolio/components/Box';
-
-const fillStyle = (boxFill: BoxProps['boxFill']) => {
-  if (boxFill === 'horizontal') {
-    return 'width: 100%;';
-  }
-  if (boxFill === 'vertical') {
-    return 'height: 100%;';
-  }
-  if (boxFill) {
-    return `
-      width: 100%;
-      height: 100%;
-    `;
-  }
-  return undefined;
-};
 
 const StyledBox = styled.div<BoxProps>`
   box-sizing: border-box;

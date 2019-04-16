@@ -1,5 +1,21 @@
 import { css } from 'styled-components';
 
+export const fillStyle = (fill: 'horizontal' | 'vertical' | boolean) => {
+  if (fill === 'horizontal') {
+    return 'width: 100%;';
+  }
+  if (fill === 'vertical') {
+    return 'height: 100%;';
+  }
+  if (fill) {
+    return `
+      width: 100%;
+      height: 100%;
+    `;
+  }
+  return undefined;
+};
+
 export const spacingStyle = (
   kind: 'margin' | 'padding',
   data: any,
