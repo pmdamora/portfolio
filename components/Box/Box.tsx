@@ -2,24 +2,29 @@ import React, { Component } from 'react';
 import { StyledBox } from '@portfolio/components/Box';
 
 export interface Props {
-  direction?:
-    | 'row'
-    | 'column'
-    | 'row-responsive'
-    | 'row-reverse'
-    | 'column-reverse';
+  a11yTitle?: string;
+  boxDirection?: 'row' | 'column' | 'row-reverse' | 'column-reverse';
+  boxHeight?: string;
+  boxWidth?: string;
+  boxFill?: 'horizontal' | 'vertical' | boolean;
+  margin?: string;
+  padding?: string;
 }
 
-class Box extends Component<Props> {
+export class Box extends Component<Props> {
   static defaultProps: Props = {
-    direction: 'row'
+    boxDirection: 'row',
+    margin: 'none',
+    padding: 'none'
   };
 
   render() {
-    const { children, direction } = this.props;
+    const { a11yTitle, children, ...other } = this.props;
 
-    return <StyledBox direction={direction}>{children}</StyledBox>;
+    return (
+      <StyledBox aria-label={a11yTitle} {...other}>
+        {children}
+      </StyledBox>
+    );
   }
 }
-
-export { Box };
