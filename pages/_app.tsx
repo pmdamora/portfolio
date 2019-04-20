@@ -1,5 +1,6 @@
 import React from 'react';
 import App, { Container } from 'next/app';
+
 import { BaseLayout } from '@portfolio/layouts';
 
 export default class PortfolioApp extends App {

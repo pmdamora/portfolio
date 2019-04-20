@@ -1,7 +1,11 @@
 import React, { FunctionComponent } from 'react';
 
 const HomePage: FunctionComponent<{}> = () => {
-  return <strong>Hello, World</strong>;
+  return (
+    <div>
+      <strong>Hello, World</strong>
+    </div>
+  );
 };
 
 export default HomePage;
