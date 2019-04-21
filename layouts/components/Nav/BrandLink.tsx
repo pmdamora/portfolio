@@ -3,9 +3,9 @@ import styled from 'styled-components';
 
 const StyledLink = styled.a`
   text-transform: uppercase;
-  color: #000;
+  color: ${props => props.theme.colors.black};
   &:hover {
-    color: ${props => props.theme.colors.text.dark};
+    color: ${props => props.theme.colors.gray4};
   }
 `;
 
