@@ -1,7 +1,8 @@
 import React, { FunctionComponent } from 'react';
 import styled from 'styled-components';
+import Link from 'next/link';
 
-const StyledLink = styled.a`
+const StyledAnchor = styled.a`
   text-transform: uppercase;
   color: ${props => props.theme.colors.black};
   &:hover {
@@ -9,11 +10,17 @@ const StyledLink = styled.a`
   }
 `;
 
+const StyledHeading = styled.h1`
+  margin-bottom: ${props => props.theme.spacing.xsmall};
+`;
+
 const BrandLink: FunctionComponent<{}> = () => {
   return (
-    <StyledLink href="#">
-      <h1>Paul D'Amora</h1>
-    </StyledLink>
+    <Link href="/">
+      <StyledAnchor>
+        <StyledHeading>Paul D'Amora</StyledHeading>
+      </StyledAnchor>
+    </Link>
   );
 };
 

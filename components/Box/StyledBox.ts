@@ -6,7 +6,7 @@ import {
   spacingStyle
 } from '@portfolio/components/utils';
 
-import { BoxProps } from '@portfolio/components/Box';
+import { BoxProps } from './Box';
 
 const StyledBox = styled.div<BoxProps>`
   box-sizing: border-box;

@@ -3,12 +3,12 @@ import Head from 'next/head';
 import styled from 'styled-components';
 
 import { ThemeProvider } from '@portfolio/styles/styled-components';
-import { Nav } from '@portfolio/layouts/components/Nav/Nav';
 import { theme, GlobalStyle } from '@portfolio/styles';
+
+import { Header } from '@portfolio/components/Header';
 import { Box } from '@portfolio/components/Box';
 
-const GOOGLE_FONTS_API =
-  'https://fonts.googleapis.com/css?family=Quattrocento+Sans:400,400i,700|Quattrocento:400,700';
+import { GOOGLE_FONTS_API } from '@portfolio/constants';
 
 const Container = styled(Box)`
   max-width: 800px;
@@ -30,7 +30,7 @@ const BaseLayout: FunctionComponent<{}> = ({ children }) => {
         <GlobalStyle />
         <Box justify="center">
           <Container boxDirection="column" boxWidth="100%" padding="medium">
-            <Nav />
+            <Header />
             <Box margin={{ top: 'large' }}>{children}</Box>
           </Container>
         </Box>

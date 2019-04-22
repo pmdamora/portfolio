@@ -23,6 +23,7 @@ export const GlobalStyle = createGlobalStyle`
 
   a {
     color: ${props => props.theme.colors.red};
+    cursor: pointer;
     text-decoration: none;
     &:hover, &:focus {
       color: ${props => props.theme.colors.black};

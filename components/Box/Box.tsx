@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import { StyledBox } from '@portfolio/components/Box';
+
 import { Spacing } from '@portfolio/types/Spacing';
+import { StyledBox } from './StyledBox';
 
 export interface BoxProps {
   a11yTitle?: string;
