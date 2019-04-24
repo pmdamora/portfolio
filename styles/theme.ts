@@ -15,8 +15,8 @@ const fontSizes = {
   small: '14px',
   medium: '16px',
   large: '18px',
-  xlarge: '32px',
-  xxlarge: '48px'
+  xlarge: '24px',
+  xxlarge: '40px'
 };
 
 const fontWeights = {
@@ -41,16 +41,16 @@ const spacing = {
 
 export interface BaseTheme {
   colors: { [key in keyof typeof colors]: string };
+  fontFamilies: { [key in keyof typeof fontFamilies]: string };
   fontSizes: { [key in keyof typeof fontSizes]: string };
   fontWeights: { [key in keyof typeof fontWeights]: string };
-  fontFamilies: { [key in keyof typeof fontFamilies]: string };
   spacing: { [key in keyof typeof spacing]: string };
 }
 
 export const theme: BaseTheme = {
   colors,
+  fontFamilies,
   fontSizes,
   fontWeights,
-  fontFamilies,
   spacing
 };

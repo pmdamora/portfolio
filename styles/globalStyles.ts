@@ -1,6 +1,9 @@
+import { GOOGLE_FONTS_URL } from '@portfolio/constants';
 import { createGlobalStyle } from './styled-components';
 
 export const GlobalStyle = createGlobalStyle`
+  @import url(${GOOGLE_FONTS_URL});
+
   *, *:before, *:after {
     box-sizing: inherit;
   }

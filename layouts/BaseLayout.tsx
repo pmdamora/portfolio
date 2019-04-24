@@ -5,10 +5,8 @@ import styled from 'styled-components';
 import { ThemeProvider } from '@portfolio/styles/styled-components';
 import { theme, GlobalStyle } from '@portfolio/styles';
 
-import { Header } from '@portfolio/components/Header';
-import { Box } from '@portfolio/components/Box';
-
-import { GOOGLE_FONTS_API } from '@portfolio/constants';
+import { Header } from '@portfolio/components/shared/Header';
+import { Box } from '@portfolio/components/ui/Box';
 
 const Container = styled(Box)`
   max-width: 800px;
@@ -25,7 +23,6 @@ const BaseLayout: FunctionComponent<{}> = ({ children }) => {
             name="viewport"
             content="initial-scale=1.0, width=device-width"
           />
-          <link href={GOOGLE_FONTS_API} rel="stylesheet" />
         </Head>
         <GlobalStyle />
         <Box justify="center">
