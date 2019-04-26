@@ -1,5 +1,7 @@
+import { createGlobalStyle } from 'styled-components';
+
+import { Color, FontSize, FontFamily } from '@portfolio/styles';
 import { GOOGLE_FONTS_URL } from '@portfolio/constants';
-import { createGlobalStyle } from './styled-components';
 
 export const GlobalStyle = createGlobalStyle`
   @import url(${GOOGLE_FONTS_URL});
@@ -13,23 +15,23 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   body {
-    color: ${props => props.theme.colors.gray5};
-    font-family: ${props => props.theme.fontFamilies.body};
-    font-size: 18px;
+    color: ${Color.GRAY_5};
+    font-family: ${FontFamily.BODY};
+    font-size: ${FontSize.LARGE};
     height: 100%;
     margin: 0;
   }
 
-  h1, h2, h3, h4, h5, h6 {
-    font-family: ${props => props.theme.fontFamilies.heading};
+ h1, h2, h3, h4, h5, h6 {
+    font-family: ${FontFamily.HEADING}
   }
 
   a {
-    color: ${props => props.theme.colors.red};
+    color: ${Color.RED};
     cursor: pointer;
     text-decoration: none;
     &:hover, &:focus {
-      color: ${props => props.theme.colors.black};
+      color: ${Color.BLACK};
       text-decoration: none;
     }
   }

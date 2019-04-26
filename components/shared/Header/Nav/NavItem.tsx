@@ -2,10 +2,12 @@ import React from 'react';
 import styled from 'styled-components';
 import Link from 'next/link';
 
+import { FontFamily, FontSize, Spacing } from '@portfolio/styles';
+
 const StyledAnchor = styled.a`
-  font-family: ${props => props.theme.fontFamilies.heading};
-  font-size: ${props => props.theme.fontSizes.small};
-  padding: 0 ${props => props.theme.spacing.medium};
+  font-family: ${FontFamily.HEADING};
+  font-size: ${FontSize.SMALL};
+  padding: 0 ${Spacing.medium};
   text-transform: uppercase;
 `;
 

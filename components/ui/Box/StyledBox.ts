@@ -1,10 +1,6 @@
 import styled from 'styled-components';
 
-import {
-  fillStyle,
-  justifyStyle,
-  spacingStyle
-} from '@portfolio/components/utils';
+import { fillStyle, justifyStyle, spacingStyle } from '@portfolio/components/utils';
 
 import { BoxProps } from './Box';
 
@@ -19,9 +15,8 @@ const StyledBox = styled.div<BoxProps>`
   ${props => props.boxHeight && `height: ${props.boxHeight};`}
   ${props => props.boxWidth && `width: ${props.boxWidth};`}
   ${props => props.justify && justifyStyle(props.justify)}
-  ${props => props.margin && spacingStyle('margin', props.margin, props.theme)}
-  ${props =>
-    props.padding && spacingStyle('padding', props.padding, props.theme)}
+  ${props => props.margin && spacingStyle('margin', props.margin)}
+  ${props => props.padding && spacingStyle('padding', props.padding)}
   ${props => props.textAlign && `text-align: ${props.textAlign}`}
 `;
 

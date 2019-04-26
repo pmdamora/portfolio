@@ -2,16 +2,18 @@ import React, { FunctionComponent } from 'react';
 import styled from 'styled-components';
 import Link from 'next/link';
 
+import { Color, Spacing } from '@portfolio/styles';
+
 const StyledAnchor = styled.a`
   text-transform: uppercase;
-  color: ${props => props.theme.colors.black};
+  color: ${Color.BLACK};
   &:hover {
-    color: ${props => props.theme.colors.gray4};
+    color: ${Color.GRAY_4};
   }
 `;
 
 const StyledHeading = styled.h1`
-  margin-bottom: ${props => props.theme.spacing.xsmall};
+  margin-bottom: ${Spacing.xsmall};
 `;
 
 const BrandLink: FunctionComponent<{}> = () => {
