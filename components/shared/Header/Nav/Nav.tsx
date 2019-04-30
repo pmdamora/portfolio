@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
+// import { CSSTransition } from 'react-transition-group';
 
 import { Box } from '@portfolio/components/ui/Box';
 
 import { Menu } from './Menu';
-import { Overlay } from './Overlay';
+// import { Overlay } from './Overlay';
 
 interface Props {}
 
@@ -25,13 +26,22 @@ class Nav extends Component<Props, State> {
   render() {
     const { ...other } = this.props;
 
-    if (this.state.overlayVisible) {
-      return (
-        <Overlay>
-          <Menu />
-        </Overlay>
-      );
-    }
+    // TODO: Finish menu for mobile
+    // return (
+    //   <div>
+    //     <button onClick={this.handleHamburgerClick}>click me</button>
+    //     <CSSTransition
+    //       in={this.state.overlayVisible}
+    //       timeout={400}
+    //       classNames="fade"
+    //       unmountOnExit
+    //     >
+    //       <Overlay>
+    //         <Menu menuDirection="column" showHome />
+    //       </Overlay>
+    //     </CSSTransition>
+    //   </div>
+    // );
     return (
       <Box
         boxDirection="row"
@@ -40,7 +50,6 @@ class Nav extends Component<Props, State> {
         justify="center"
         {...other}
       >
-        <button onClick={this.handleHamburgerClick}>click me</button>
         <Menu />
       </Box>
     );

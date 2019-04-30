@@ -10,6 +10,7 @@
     "polished": "^3.2.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-transition-group": "^4.0.0",
     "styled-components": "^4.2.0"
   },
   "scripts": {
@@ -22,6 +23,7 @@
     "@typescript-eslint/eslint-plugin": "^1.6.0",
     "@typescript-eslint/parser": "^1.6.0",
     "awesome-typescript-loader": "^5.2.1",
+    "babel-plugin-styled-components": "^1.10.0",
     "docz": "^1.0.0",
     "docz-theme-default": "^1.0.0",
     "eslint": "^5.16.0",
