@@ -7,5 +7,6 @@ module.exports = withTypescript({
     // eslint-disable-next-line no-param-reassign
     config.resolve.alias['@portfolio'] = path.join(__dirname, './');
     return config;
-  }
+  },
+  target: 'serverless'
 });

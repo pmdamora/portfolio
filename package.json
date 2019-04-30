@@ -5,6 +5,7 @@
     "@types/react-dom": "^16.8.3",
     "@types/styled-components": "^4.1.14",
     "@zeit/next-typescript": "^1.1.1",
+    "express": "^4.16.4",
     "fontfaceobserver": "^2.1.0",
     "next": "^8.0.4",
     "polished": "^3.2.0",
@@ -16,7 +17,8 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "now-build": "next build"
   },
   "devDependencies": {
     "@types/fontfaceobserver": "0.0.6",
