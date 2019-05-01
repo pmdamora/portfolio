@@ -1,7 +1,7 @@
 import { Enum } from '@portfolio/styles';
 
 export default class Color extends Enum<string> {
-  static RED = new Color('#ed3426');
+  static RED = new Color('#DC2A2A');
 
   static WHITE = new Color('#ffffff');
 
