@@ -1,10 +1,14 @@
 import { createGlobalStyle } from 'styled-components';
 
-import { Color, FontSize, FontFamily } from '@portfolio/styles';
-import { GOOGLE_FONTS_URL } from '@portfolio/constants';
+import {
+  Color,
+  FontSize,
+  FontFamily,
+  fontFaceDeclarations
+} from '@portfolio/styles';
 
 export const GlobalStyle = createGlobalStyle`
-  @import url(${GOOGLE_FONTS_URL});
+  ${fontFaceDeclarations}
 
   *, *:before, *:after {
     box-sizing: inherit;

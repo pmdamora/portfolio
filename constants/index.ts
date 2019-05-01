@@ -1,2 +1,6 @@
-export const GOOGLE_FONTS_URL =
-  'https://fonts.googleapis.com/css?family=Quattrocento+Sans:400,400i,700|Quattrocento:400,700';
+export const PRELOADED_FONTS = [
+  '/static/fonts/quattrocento-sans-v11-latin-regular.woff2',
+  '/static/fonts/quattrocento-sans-v11-latin-700.woff2',
+  '/static/fonts/quattrocento-v10-latin-700.woff2',
+  '/static/fonts/quattrocento-v10-latin-regular.woff2'
+];
