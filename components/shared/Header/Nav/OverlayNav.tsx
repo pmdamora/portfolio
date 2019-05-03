@@ -1,8 +1,8 @@
-import React from 'react';
+import React, { FunctionComponent } from 'react';
 import styled from 'styled-components';
 import { CSSTransition } from 'react-transition-group';
 
-import { Color, FontSize, FontWeight, Spacing, MQ } from '@portfolio/styles';
+import { Color, FontSize, FontWeight, Spacing } from '@portfolio/styles';
 import { Box } from '@portfolio/components/ui/Box';
 import { Menu } from '@portfolio/components/shared/Header/Nav';
 
@@ -26,10 +26,6 @@ const Container = styled(Box)`
     opacity: 0;
     transition: opacity 400ms cubic-bezier(0.42, 0, 0.58, 1);
   }
-
-  ${MQ.small} {
-    display: none;
-  }
 `;
 
 const MenuWrapper = styled(Box)`
@@ -45,10 +41,14 @@ const MenuWrapper = styled(Box)`
   }
 `;
 
-export const Overlay = () => {
+interface Props {
+  showMobileMenu?: boolean;
+}
+
+export const OverlayNav: FunctionComponent<Props> = ({ showMobileMenu }) => {
   return (
     <CSSTransition
-      // in={this.state.overlayVisible}
+      in={showMobileMenu}
       timeout={400}
       classNames="fade"
       unmountOnExit
@@ -60,4 +60,8 @@ export const Overlay = () => {
       </Container>
     </CSSTransition>
   );
+};
+
+OverlayNav.defaultProps = {
+  showMobileMenu: false
 };

@@ -3,7 +3,10 @@ import styled from 'styled-components';
 
 import { MQ } from '@portfolio/styles';
 import { Box } from '@portfolio/components/ui/Box';
-import { HorizontalNav } from '@portfolio/components/shared/Header/Nav';
+import {
+  HorizontalNav,
+  OverlayNav
+} from '@portfolio/components/shared/Header/Nav';
 import { Hamburger, BrandLink } from '@portfolio/components/shared/Header';
 
 const Wrapper = styled(Box)`
@@ -16,17 +19,30 @@ const Wrapper = styled(Box)`
 
 interface Props {}
 
-interface State {}
+interface State {
+  showMobileMenu: boolean;
+}
 
 class Header extends Component<Props, State> {
+  state: State = {
+    showMobileMenu: false
+  };
+
+  handleHamburgerClick = () => {
+    this.setState({
+      showMobileMenu: !this.state.showMobileMenu
+    });
+  };
+
   render() {
     return (
       <Fragment>
         <Wrapper boxDirection="column" textAlign="center">
           <BrandLink />
           <HorizontalNav />
-          <Hamburger />
+          <Hamburger handleHamburgerClick={this.handleHamburgerClick} />
         </Wrapper>
+        <OverlayNav showMobileMenu={this.state.showMobileMenu} />
       </Fragment>
     );
   }

@@ -1,4 +1,4 @@
 export { NavItem } from './NavItem';
 export { Menu } from './Menu';
-export { Overlay } from './Overlay';
+export { OverlayNav } from './OverlayNav';
 export { HorizontalNav } from './HorizontalNav';
