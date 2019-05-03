@@ -1,17 +1,33 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
+import styled from 'styled-components';
 
+import { MQ } from '@portfolio/styles';
 import { Box } from '@portfolio/components/ui/Box';
-import { Nav } from './Nav';
+import { HorizontalNav } from '@portfolio/components/shared/Header/Nav';
+import { Hamburger, BrandLink } from '@portfolio/components/shared/Header';
 
-import BrandLink from './BrandLink';
+const Wrapper = styled(Box)`
+  ${MQ.small} {
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+`;
 
-class Header extends Component {
+interface Props {}
+
+interface State {}
+
+class Header extends Component<Props, State> {
   render() {
     return (
-      <Box boxDirection="column" textAlign="center">
-        <BrandLink />
-        <Nav />
-      </Box>
+      <Fragment>
+        <Wrapper boxDirection="column" textAlign="center">
+          <BrandLink />
+          <HorizontalNav />
+          <Hamburger />
+        </Wrapper>
+      </Fragment>
     );
   }
 }

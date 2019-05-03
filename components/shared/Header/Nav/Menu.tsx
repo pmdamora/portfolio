@@ -1,7 +1,7 @@
 import React, { FunctionComponent } from 'react';
 
 import { Box } from '@portfolio/components/ui/Box';
-import { NavItem } from './NavItem';
+import { NavItem } from '@portfolio/components/shared/Header/Nav/NavItem';
 
 interface Props {
   showHome?: boolean;
@@ -10,7 +10,12 @@ interface Props {
 
 const Menu: FunctionComponent<Props> = ({ showHome, menuDirection }) => {
   return (
-    <Box boxDirection={menuDirection} justify="center" boxWidth="100%">
+    <Box
+      boxDirection={menuDirection}
+      justify="center"
+      boxWidth="100%"
+      textAlign="center"
+    >
       {showHome && <NavItem href="/">Home</NavItem>}
       <NavItem href="/writings">Writings</NavItem>
       <NavItem href="/projects">Projects</NavItem>

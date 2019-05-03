@@ -2,7 +2,7 @@ import React, { FunctionComponent } from 'react';
 import styled from 'styled-components';
 import Link from 'next/link';
 
-import { Color, Spacing } from '@portfolio/styles';
+import { Color, Spacing, MQ, FontSize } from '@portfolio/styles';
 
 const StyledAnchor = styled.a`
   text-transform: uppercase;
@@ -14,6 +14,12 @@ const StyledAnchor = styled.a`
 
 const StyledHeading = styled.h1`
   margin-bottom: ${Spacing.xsmall};
+
+  ${MQ.small} {
+    font-size: ${FontSize.XLARGE};
+    margin: ${Spacing.medium} 0;
+    text-align: left;
+  }
 `;
 
 const BrandLink: FunctionComponent<{}> = () => {
@@ -26,4 +32,4 @@ const BrandLink: FunctionComponent<{}> = () => {
   );
 };
 
-export default BrandLink;
+export { BrandLink };
