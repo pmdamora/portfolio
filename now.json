@@ -1,15 +1,21 @@
 {
   "version": 2,
   "name": "portfolio",
-  "builds": [{ "src": "next.config.js", "use": "@now/next" }],
+  "builds": [
+    {
+      "src": "next.config.js",
+      "use": "@now/next"
+    }
+  ],
   "routes": [
     {
-      "src": "/_next/static/(?:[^/]+/pages|chunks|runtime)/.+",
-      "headers": { "cache-control": "immutable" }
-    },
-    {
-      "src": "/static/fonts/.+",
-      "headers": { "cache-control": "s-maxage=86400" }
+      "src": "^/service-worker.js$",
+      "dest": "/_next/static/service-worker.js",
+      "headers": {
+        "cache-control": "public, max-age=43200, immutable",
+        "Service-Worker-Allowed": "/"
+      }
     }
-  ]
+  ],
+  "regions": ["all"]
 }
