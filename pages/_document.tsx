@@ -1,6 +1,16 @@
 import React, { Fragment } from 'react';
 import Document, { Html, Head, Main, NextScript } from 'next/document';
-import { ServerStyleSheet } from 'styled-components';
+import styled, { ServerStyleSheet } from 'styled-components';
+
+import { GlobalStyle } from '@portfolio/styles';
+
+import { Fonts } from '@portfolio/components/shared/Fonts';
+import { Header } from '@portfolio/components/shared/Header';
+import { Box } from '@portfolio/components/ui/Box';
+
+const Container = styled(Box)`
+  max-width: 800px;
+`;
 
 export default class PorfolioDocument extends Document {
   static async getInitialProps(ctx) {
@@ -32,6 +42,7 @@ export default class PorfolioDocument extends Document {
     return (
       <Html lang="en">
         <Head>
+          <title>🤔🤔🤔🤔🤔</title>
           <meta charSet="utf-8" />
           <meta
             name="description"
@@ -40,8 +51,17 @@ export default class PorfolioDocument extends Document {
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <meta name="theme-color" content="#fff" />
           <link rel="manifest" href="./static/manifest.json" />
+          <Fonts />
         </Head>
-        <Main />
+        <GlobalStyle />
+        <Box justify="center">
+          <Container boxDirection="column" boxWidth="100%" padding="large">
+            <Header />
+            <Box margin={{ top: 'large' }} boxDirection="column">
+              <Main />
+            </Box>
+          </Container>
+        </Box>
         <NextScript />
       </Html>
     );
