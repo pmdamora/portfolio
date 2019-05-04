@@ -24,7 +24,7 @@ const StyledHeading = styled.h1`
 
 const BrandLink: FunctionComponent<{}> = () => {
   return (
-    <Link href="/">
+    <Link href="/" passHref>
       <StyledAnchor>
         <StyledHeading>Paul D'Amora</StyledHeading>
       </StyledAnchor>

@@ -13,7 +13,7 @@ const StyledAnchor = styled.a`
 
 export const NavItem = ({ href, children, ...other }) => {
   return (
-    <Link href={href}>
+    <Link href={href} passHref>
       <StyledAnchor {...other}>{children}</StyledAnchor>
     </Link>
   );
