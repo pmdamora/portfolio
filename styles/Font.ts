@@ -7,11 +7,13 @@ export class FontFamily extends Enum<string> {
 }
 
 export class FontSize extends Enum<number> {
-  static SMALL = new FontSize(14);
+  static XSMALL = new FontSize(14);
 
-  static MEDIUM = new FontSize(16);
+  static SMALL = new FontSize(16);
 
-  static LARGE = new FontSize(18);
+  static MEDIUM = new FontSize(18);
+
+  static LARGE = new FontSize(21);
 
   static XLARGE = new FontSize(24);
 

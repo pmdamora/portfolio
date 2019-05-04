@@ -1,6 +1,8 @@
 /* eslint-disable @typescript-eslint/no-var-requires */
 const withOffline = require('next-offline');
 const withTypescript = require('@zeit/next-typescript');
+const withMDX = require('@zeit/next-mdx')();
+
 const path = require('path');
 
 const nextConfig = {
@@ -10,6 +12,7 @@ const nextConfig = {
     return config;
   },
   target: 'serverless',
+  pageExtensions: ['tsx', 'mdx'],
   workboxOpts: {
     swDest: 'static/service-worker.js',
     runtimeCaching: [
@@ -32,4 +35,4 @@ const nextConfig = {
   }
 };
 
-module.exports = withTypescript(withOffline(nextConfig));
+module.exports = withTypescript(withMDX(withOffline(nextConfig)));

@@ -6,7 +6,7 @@ import { FontFamily, FontSize, Spacing } from '@portfolio/styles';
 
 const StyledAnchor = styled.a`
   font-family: ${FontFamily.HEADING};
-  font-size: ${FontSize.SMALL};
+  font-size: ${FontSize.XSMALL};
   padding: 0 ${Spacing.medium};
   text-transform: uppercase;
 `;

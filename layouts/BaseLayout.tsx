@@ -21,9 +21,11 @@ const BaseLayout: FunctionComponent<{}> = ({ children }) => {
       </Head>
       <GlobalStyle />
       <Box justify="center">
-        <Container boxDirection="column" boxWidth="100%" padding="medium">
+        <Container boxDirection="column" boxWidth="100%" padding="large">
           <Header />
-          <Box margin={{ top: 'large' }}>{children}</Box>
+          <Box margin={{ top: 'large' }} boxDirection="column">
+            {children}
+          </Box>
         </Container>
       </Box>
     </Fragment>
