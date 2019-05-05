@@ -3,8 +3,8 @@ import styled from 'styled-components';
 import { CSSTransition } from 'react-transition-group';
 
 import { Color, FontSize, FontWeight, Spacing } from '@portfolio/styles';
-import { Box } from '@portfolio/components/ui/Box';
-import { Menu } from '@portfolio/components/shared/Header/Nav';
+import { Box } from '@portfolio/components/shared/Box';
+import { Menu } from '@portfolio/components/ui/Header/Nav';
 
 const Container = styled(Box)`
   background-color: ${Color.RED.withOpacity(0.9)};

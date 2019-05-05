@@ -2,12 +2,12 @@ import React, { Component, Fragment } from 'react';
 import styled from 'styled-components';
 
 import { MQ } from '@portfolio/styles';
-import { Box } from '@portfolio/components/ui/Box';
+import { Box } from '@portfolio/components/shared/Box';
 import {
   HorizontalNav,
   OverlayNav
-} from '@portfolio/components/shared/Header/Nav';
-import { Hamburger, BrandLink } from '@portfolio/components/shared/Header';
+} from '@portfolio/components/ui/Header/Nav';
+import { Hamburger, BrandLink } from '@portfolio/components/ui/Header';
 
 const Wrapper = styled(Box)`
   ${MQ.small} {

@@ -4,9 +4,9 @@ import styled, { ServerStyleSheet } from 'styled-components';
 
 import { GlobalStyle } from '@portfolio/styles';
 
-import { Fonts } from '@portfolio/components/shared/Fonts';
-import { Header } from '@portfolio/components/shared/Header';
-import { Box } from '@portfolio/components/ui/Box';
+import { Fonts } from '@portfolio/components/ui/Fonts';
+import { Header } from '@portfolio/components/ui/Header';
+import { Box } from '@portfolio/components/shared/Box';
 
 const Container = styled(Box)`
   max-width: 800px;

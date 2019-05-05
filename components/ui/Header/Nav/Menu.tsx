@@ -1,7 +1,7 @@
 import React, { FunctionComponent } from 'react';
 
-import { Box } from '@portfolio/components/ui/Box';
-import { NavItem } from '@portfolio/components/shared/Header/Nav/NavItem';
+import { Box } from '@portfolio/components/shared/Box';
+import { NavItem } from '@portfolio/components/ui/Header/Nav/NavItem';
 
 interface Props {
   showHome?: boolean;

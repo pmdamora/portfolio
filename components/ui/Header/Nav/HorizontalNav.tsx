@@ -1,8 +1,8 @@
 import React, { FunctionComponent } from 'react';
 import styled from 'styled-components';
 
-import { Box } from '@portfolio/components/ui/Box';
-import { Menu } from '@portfolio/components/shared/Header/Nav';
+import { Box } from '@portfolio/components/shared/Box';
+import { Menu } from '@portfolio/components/ui/Header/Nav';
 import { MQ } from '@portfolio/styles';
 
 const Wrapper = styled(Box)`

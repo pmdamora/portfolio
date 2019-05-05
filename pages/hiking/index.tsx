@@ -2,7 +2,7 @@ import React, { FunctionComponent, Fragment } from 'react';
 import Link from 'next/link';
 import styled from 'styled-components';
 
-import { Box } from '@portfolio/components/ui/Box';
+import { Box } from '@portfolio/components/shared/Box';
 import { Spacing, Color } from '@portfolio/styles';
 
 const StyledParagraph = styled.p`
