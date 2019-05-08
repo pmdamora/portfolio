@@ -3,10 +3,7 @@ import styled from 'styled-components';
 
 import { MQ } from '@portfolio/styles';
 import { Box } from '@portfolio/components/shared/Box';
-import {
-  HorizontalNav,
-  OverlayNav
-} from '@portfolio/components/ui/Header/Nav';
+import { HorizontalNav, OverlayNav } from '@portfolio/components/ui/Header/Nav';
 import { Hamburger, BrandLink } from '@portfolio/components/ui/Header';
 
 const Wrapper = styled(Box)`

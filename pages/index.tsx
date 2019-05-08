@@ -1,10 +1,12 @@
 import React, { FunctionComponent } from 'react';
 
+import Page from '@portfolio/components/shared/Page';
+
 const HomePage: FunctionComponent<{}> = () => {
   return (
-    <div>
+    <Page>
       <strong>Hello, World</strong>
-    </div>
+    </Page>
   );
 };
 

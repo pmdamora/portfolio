@@ -1,7 +1,8 @@
-import React, { FunctionComponent, Fragment } from 'react';
+import React, { FunctionComponent } from 'react';
 import Link from 'next/link';
 import styled from 'styled-components';
 
+import Page from '@portfolio/components/shared/Page';
 import { Box } from '@portfolio/components/shared/Box';
 import { Spacing, Color } from '@portfolio/styles';
 
@@ -22,7 +23,7 @@ const StyledList = styled.ul`
 
 const HikingPage: FunctionComponent<{}> = () => {
   return (
-    <Fragment>
+    <Page>
       <h1>Hiking</h1>
       <Box>
         <StyledParagraph>
@@ -56,7 +57,7 @@ const HikingPage: FunctionComponent<{}> = () => {
           </li>
         </StyledList>
       </Box>
-    </Fragment>
+    </Page>
   );
 };
 
