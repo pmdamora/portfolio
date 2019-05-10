@@ -32,6 +32,7 @@ export const justifyStyle = (justify: string) => {
   `;
 };
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 export const spacingStyle = (kind: 'margin' | 'padding', data: any) => {
   if (typeof data === 'string') {
     return css`

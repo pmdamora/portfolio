@@ -1,12 +1,18 @@
 import React, { Fragment } from 'react';
-import Document, { Html, Head, Main, NextScript } from 'next/document';
+import Document, {
+  Html,
+  Head,
+  Main,
+  NextScript,
+  NextDocumentContext
+} from 'next/document';
 import { ServerStyleSheet } from 'styled-components';
 
 import { GlobalStyle } from '@portfolio/styles';
-import { Fonts } from '@portfolio/components/ui/Fonts';
+import { Fonts } from '@portfolio/components/ui/Header';
 
 export default class PorfolioDocument extends Document {
-  static async getInitialProps(ctx) {
+  static async getInitialProps(ctx: NextDocumentContext) {
     const sheet = new ServerStyleSheet();
     const originalRenderPage = ctx.renderPage;
 

@@ -1,6 +1,6 @@
 import { Enum } from '@portfolio/styles';
 
-export default class Color extends Enum<string> {
+export class Color extends Enum<string> {
   static RED = new Color('#DC2A2A');
 
   static WHITE = new Color('#ffffff');
@@ -19,10 +19,12 @@ export default class Color extends Enum<string> {
 
   static GRAY_5 = new Color('#232a38');
 
+  value: string;
+
   toRgb(): { r: number; g: number; b: number } {
     // Expand shorthand form (e.g. "03F") to full form (e.g. "0033FF")
     const shorthandRegex = /^#?([a-f\d])([a-f\d])([a-f\d])$/i;
-    const hex = this.value.replace(shorthandRegex, function(_m, r, g, b) {
+    const hex = this.value.replace(shorthandRegex, (_m, r, g, b) => {
       return r + r + g + g + b + b;
     });
 

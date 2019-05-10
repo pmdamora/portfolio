@@ -1,4 +1,5 @@
-export default class Enum<T> {
+/* eslint-disable @typescript-eslint/no-explicit-any */
+export class Enum<T> {
   value: any;
 
   [key: string]: any; // TODO: Fix this trash

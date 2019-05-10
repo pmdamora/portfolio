@@ -6,14 +6,14 @@ export const Fonts: FunctionComponent<{}> = () => {
   return (
     <Fragment>
       {/* prettier-ignore */}
-      {PRELOADED_FONTS.map((value, index) => {
+      {PRELOADED_FONTS.map(value => {
         return (
           <link
             rel="preload"
             as="font"
             type="font/woff2"
             href={value}
-            key={index}
+            key={value}
             crossOrigin="anonymous"
           />
         );

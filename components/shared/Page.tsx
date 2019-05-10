@@ -1,4 +1,4 @@
-import React, { Component, Fragment } from 'react';
+import React, { FunctionComponent, Fragment } from 'react';
 import Head from 'next/head';
 import styled from 'styled-components';
 
@@ -14,32 +14,26 @@ interface Props {
   title?: string;
 }
 
-class Page extends Component<Props> {
-  render() {
-    const { description, title, children } = this.props;
-
-    return (
-      <Fragment>
-        <Head>
-          <title>{title || '🤔🤔🤔🤔🤔'}</title>
-          <meta
-            name="description"
-            content={
-              description || "Personal showcase and blog of Paul D'Amora."
-            }
-          />
-        </Head>
-        <Box justify="center">
-          <Container boxDirection="column" boxWidth="100%" padding="large">
-            <Header />
-            <Box margin={{ top: 'large' }} boxDirection="column">
-              {children}
-            </Box>
-          </Container>
+export const Page: FunctionComponent<Props> = ({
+  description,
+  title,
+  children
+}) => (
+  <Fragment>
+    <Head>
+      <title>{title || '🤔🤔🤔🤔🤔'}</title>
+      <meta
+        name="description"
+        content={description || "Personal showcase and blog of Paul D'Amora."}
+      />
+    </Head>
+    <Box justify="center">
+      <Container boxDirection="column" boxWidth="100%" padding="large">
+        <Header />
+        <Box margin={{ top: 'large' }} boxDirection="column">
+          {children}
         </Box>
-      </Fragment>
-    );
-  }
-}
-
-export default Page;
+      </Container>
+    </Box>
+  </Fragment>
+);

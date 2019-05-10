@@ -26,7 +26,7 @@ const BrandLink: FunctionComponent<{}> = () => {
   return (
     <Link href="/" passHref>
       <StyledAnchor>
-        <StyledHeading>Paul D'Amora</StyledHeading>
+        <StyledHeading>Paul D&apos;Amora</StyledHeading>
       </StyledAnchor>
     </Link>
   );

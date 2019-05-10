@@ -14,24 +14,21 @@ const Wrapper = styled(Box)`
   }
 `;
 
-interface Props {}
-
 interface State {
   showMobileMenu: boolean;
 }
 
-class Header extends Component<Props, State> {
+class Header extends Component<{}, State> {
   state: State = {
     showMobileMenu: false
   };
 
   handleHamburgerClick = () => {
-    this.setState({
-      showMobileMenu: !this.state.showMobileMenu
-    });
+    this.setState(s => ({ showMobileMenu: !s.showMobileMenu }));
   };
 
   render() {
+    const { showMobileMenu } = this.state;
     return (
       <Fragment>
         <Wrapper boxDirection="column" textAlign="center">
@@ -39,7 +36,7 @@ class Header extends Component<Props, State> {
           <HorizontalNav />
           <Hamburger handleHamburgerClick={this.handleHamburgerClick} />
         </Wrapper>
-        <OverlayNav showMobileMenu={this.state.showMobileMenu} />
+        <OverlayNav showMobileMenu={showMobileMenu} />
       </Fragment>
     );
   }

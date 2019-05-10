@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { FunctionComponent } from 'react';
 
 import { Spacing } from '@portfolio/types/Spacing';
 import { StyledBox } from './StyledBox';
@@ -15,20 +15,20 @@ export interface BoxProps {
   textAlign?: string;
 }
 
-export class Box extends Component<BoxProps> {
-  static defaultProps: BoxProps = {
-    boxDirection: 'row',
-    margin: 'none',
-    padding: 'none'
-  };
+const Box: FunctionComponent<BoxProps> = ({
+  a11yTitle,
+  children,
+  ...other
+}) => (
+  <StyledBox aria-label={a11yTitle} {...other}>
+    {children}
+  </StyledBox>
+);
 
-  render() {
-    const { a11yTitle, children, ...other } = this.props;
+Box.defaultProps = {
+  boxDirection: 'row',
+  margin: 'none',
+  padding: 'none'
+};
 
-    return (
-      <StyledBox aria-label={a11yTitle} {...other}>
-        {children}
-      </StyledBox>
-    );
-  }
-}
+export { Box };

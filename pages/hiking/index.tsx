@@ -2,7 +2,7 @@ import React, { FunctionComponent } from 'react';
 import Link from 'next/link';
 import styled from 'styled-components';
 
-import Page from '@portfolio/components/shared/Page';
+import { Page } from '@portfolio/components/shared/Page';
 import { Box } from '@portfolio/components/shared/Box';
 import { Spacing, Color } from '@portfolio/styles';
 
