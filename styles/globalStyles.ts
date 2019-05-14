@@ -27,12 +27,12 @@ export const GlobalStyle = createGlobalStyle`
     margin: 0;
   }
 
-  h1, h2, h3, h4, h5, h6 {
-    font-family: ${FontFamily.HEADING}
+  h1, h2, h3 {
+    font-family: ${FontFamily.HEADING};
   }
 
-  h1, h2 {
-    text-align: center;
+  h4, h5, h6 {
+    font-family: ${FontFamily.BODY};
   }
 
   a {

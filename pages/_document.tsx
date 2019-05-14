@@ -1,18 +1,12 @@
 import React, { Fragment } from 'react';
-import Document, {
-  Html,
-  Head,
-  Main,
-  NextScript,
-  NextDocumentContext
-} from 'next/document';
+import Document, { Html, Head, Main, NextScript } from 'next/document';
 import { ServerStyleSheet } from 'styled-components';
 
 import { GlobalStyle } from '@portfolio/styles';
 import { Fonts } from '@portfolio/components/ui/Header';
 
 export default class PorfolioDocument extends Document {
-  static async getInitialProps(ctx: NextDocumentContext) {
+  static async getInitialProps(ctx) {
     const sheet = new ServerStyleSheet();
     const originalRenderPage = ctx.renderPage;
 
@@ -27,6 +21,7 @@ export default class PorfolioDocument extends Document {
         ...initialProps,
         styles: (
           <Fragment>
+            <GlobalStyle />
             {initialProps.styles}
             {sheet.getStyleElement()}
           </Fragment>
@@ -44,10 +39,9 @@ export default class PorfolioDocument extends Document {
           <meta charSet="utf-8" />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <meta name="theme-color" content="#fff" />
-          <link rel="manifest" href="./static/manifest.json" />
+          <link rel="manifest" href="/static/manifest.json" />
           <Fonts />
         </Head>
-        <GlobalStyle />
         <Main />
         <NextScript />
       </Html>
