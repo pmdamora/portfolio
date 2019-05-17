@@ -10,9 +10,10 @@ const DateHeading = styled.h4`
   margin: 0;
 `;
 
-interface Props {
+export interface Props {
   title: string;
   publishDate: string;
+  link: string;
 }
 
 export const Post = ({ title, publishDate }: Props) => ({ children }) => (

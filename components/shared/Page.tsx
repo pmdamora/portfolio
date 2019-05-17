@@ -51,7 +51,7 @@ export const Page: FunctionComponent<Props> = ({
               <StyledParagraph>{description}</StyledParagraph>
             </Box>
           )}
-          <Box>{children}</Box>
+          <Box boxDirection="column">{children}</Box>
         </Box>
       </Container>
     </Box>

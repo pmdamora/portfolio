@@ -22,7 +22,7 @@ const HikingPage: FunctionComponent<{}> = () => {
     <Page title={title} description={description} showHeading>
       <StyledList>
         <li>
-          <Link href="/trips/collegiate-loop/">
+          <Link href="/trips/collegiate-loop/" prefetch>
             <a>
               <strong>Collegiate Loop (~200 mi) - September 2017</strong>
             </a>
