@@ -4,11 +4,14 @@ import Link from 'next/link';
 
 import { Color, Spacing, MQ, FontSize } from '@portfolio/styles';
 
-const StyledAnchor = styled.a`
+// TODO: Add z-index constants and use them
+const StyledAnchor = styled.a<Props>`
   text-transform: uppercase;
   color: ${Color.BLACK};
+  ${props => props.isOverlay && `color: ${Color.WHITE}; z-index: 1000;`}
   &:hover {
     color: ${Color.GRAY_4};
+    ${props => props.isOverlay && `color: ${Color.WHITE}; opacity: 0.7;`}
   }
 `;
 
@@ -22,10 +25,14 @@ const StyledHeading = styled.h1`
   }
 `;
 
-const BrandLink: FunctionComponent<{}> = () => {
+interface Props {
+  isOverlay: boolean;
+}
+
+const BrandLink: FunctionComponent<Props> = ({ isOverlay }) => {
   return (
     <Link href="/" passHref>
-      <StyledAnchor>
+      <StyledAnchor isOverlay={isOverlay}>
         <StyledHeading>Paul D&apos;Amora</StyledHeading>
       </StyledAnchor>
     </Link>

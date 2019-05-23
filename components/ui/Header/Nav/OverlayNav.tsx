@@ -17,14 +17,14 @@ const Container = styled(Box)`
   }
   &.fade-enter-active {
     opacity: 1;
-    transition: opacity 400ms cubic-bezier(0.42, 0, 0.58, 1);
+    transition: opacity 500ms cubic-bezier(0.42, 0, 0.58, 1);
   }
   &.fade-exit {
     opacity: 1;
   }
   &.fade-exit-active {
     opacity: 0;
-    transition: opacity 400ms cubic-bezier(0.42, 0, 0.58, 1);
+    transition: opacity 500ms cubic-bezier(0.42, 0, 0.58, 1);
   }
 `;
 

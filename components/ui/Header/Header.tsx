@@ -32,9 +32,12 @@ class Header extends Component<{}, State> {
     return (
       <Fragment>
         <Wrapper boxDirection="column" textAlign="center">
-          <BrandLink />
+          <BrandLink isOverlay={showMobileMenu} />
           <HorizontalNav />
-          <Hamburger handleHamburgerClick={this.handleHamburgerClick} />
+          <Hamburger
+            isOpen={showMobileMenu}
+            handleHamburgerClick={this.handleHamburgerClick}
+          />
         </Wrapper>
         <OverlayNav showMobileMenu={showMobileMenu} />
       </Fragment>

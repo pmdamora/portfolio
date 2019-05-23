@@ -33,7 +33,6 @@ const CollegiateLoopPage: FunctionComponent<{}> = () => {
   const description =
     'The Long Trail is a hiking trail located in Vermont, running the length of the state. It is the oldest long-distance trail in the United States, constructed between 1910 and 1930 by the Green Mountain Club.';
 
-  // console.log(previewItems);
   return (
     <Page title={title} description={description} showHeading>
       {items}
