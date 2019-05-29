@@ -3,6 +3,8 @@ import Head from 'next/head';
 import styled from 'styled-components';
 
 import { Header } from '@portfolio/components/ui/Header';
+import { Footer } from '@portfolio/components/ui/Footer';
+
 import { Box } from '@portfolio/components/shared/Box';
 import { Spacing, Color } from '@portfolio/styles';
 
@@ -11,23 +13,25 @@ const Container = styled(Box)`
 `;
 
 const StyledParagraph = styled.p`
+  border-bottom: 1px solid ${Color.GRAY_1};
   font-size: 21px;
   line-height: 30px;
-  border-bottom: 1px solid ${Color.GRAY_1};
   padding-bottom: ${Spacing.xlarge};
 `;
 
 interface Props {
+  backgroundImageSrc?: string;
   description?: string;
-  title?: string;
   showHeading?: boolean;
+  title?: string;
 }
 
 export const Page: FunctionComponent<Props> = ({
+  backgroundImageSrc,
+  children,
   description,
-  title,
   showHeading = false,
-  children
+  title
 }) => (
   <Fragment>
     <Head>
@@ -53,6 +57,7 @@ export const Page: FunctionComponent<Props> = ({
           )}
           <Box boxDirection="column">{children}</Box>
         </Box>
+        <Footer withHr={!backgroundImageSrc} />
       </Container>
     </Box>
   </Fragment>
